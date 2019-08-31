@@ -1,0 +1,142 @@
+.App {
+  height: 100vh;
+  display: flex;
+  color: white;
+}
+
+.App__Aside {
+  width: 50%;
+  background-color: white;
+  background: url("/images/stores.jpg") no-repeat center center;
+  z-index: 105;
+  background-size: cover;
+}
+
+.App__Form {
+  width: 50%;
+  text-align-last: center;
+  height: 100%;
+  background-color: #101010;
+  padding: 25px 40px;
+  overflow: auto;
+  z-index: 105;
+}
+.FormCenter {
+  margin-bottom: 100px;
+}
+.or {
+  color: white;
+}
+
+.FormTitle {
+  padding-top: 20%;
+  color: black;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.FormTitle__Link {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7em;
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+
+.FormTitle__Link:first-child {
+  margin-left: 0;
+}
+
+.FormTitle__Link--Active {
+  color: white;
+  border-bottom: 1px solid white;
+  margin-bottom: 40px;
+}
+
+.FormField {
+  margin-bottom: 40px;
+}
+
+.FormField__Label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: white;
+}
+
+.FormField__Input:-webkit-autofill {
+  -webkit-text-fill-color: black !important;
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  box-shadow: 0 0 0px 1000px white inset;
+  width: 50%;
+  background-color: white;
+  font-size: 0.9em;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.FormField__Input {
+  text-align: left;
+  padding-top: 10px;
+  width: 50%;
+  background-color: white;
+  color: black;
+  outline: none;
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  margin-top: 10px;
+  font-family: "roboto", sans-serif;
+}
+
+.FormField__Input::placeholder {
+  color: #616e7f;
+}
+
+.FormField__Button {
+  background-color: #101010;
+  color: white;
+  border: none;
+  outline: none;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 22px;
+  font-weight: 400;
+  min-inline-size: -webkit-fill-available;
+}
+.FormField__Button:hover {
+  cursor: pointer;
+}
+.FormField__Link {
+  color: #66707d;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1.5px solid #225e62;
+  padding-bottom: 5px;
+}
+
+.FormField__CheckboxLabel {
+  color: #646f7d;
+  font-size: 0.9em;
+}
+
+.FormField__Checkbox {
+  position: relative;
+  top: 1.5px;
+}
+
+.FormField__TermsLink {
+  color: white;
+  border-bottom: 1px solid #199087;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 2px;
+  margin-left: 5px;
+}
