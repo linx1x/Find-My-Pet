@@ -550,7 +550,7 @@ module.exports = _inheritsLoose;
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".App {\r\n  height: 100vh;\r\n  display: flex;\r\n  color: white;\r\n}\r\n\r\n.App__Aside {\r\n  width: 50%;\r\n  background-color: white;\r\n  background: url(\"/images/stores.jpg\") no-repeat center center;\r\n  z-index: 105;\r\n  background-size: cover;\r\n}\r\n\r\n.App__Form {\r\n  width: 50%;\r\n  text-align-last: center;\r\n  height: 100%;\r\n  background-color: #101010;\r\n  padding: 25px 40px;\r\n  overflow: auto;\r\n  z-index: 105;\r\n}\r\n.FormCenter {\r\n  margin-bottom: 100px;\r\n}\r\n.or {\r\n  color: white;\r\n}\r\n\r\n.FormTitle {\r\n  padding-top: 20%;\r\n  color: black;\r\n  font-weight: 300;\r\n  margin-bottom: 50px;\r\n}\r\n\r\n.FormTitle__Link {\r\n  color: white;\r\n  text-decoration: none;\r\n  display: inline-block;\r\n  font-size: 1.7em;\r\n  margin: 0 10px;\r\n  padding-bottom: 5px;\r\n}\r\n\r\n.FormTitle__Link:first-child {\r\n  margin-left: 0;\r\n}\r\n\r\n.FormTitle__Link--Active {\r\n  color: white;\r\n  border-bottom: 1px solid white;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.FormField {\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.FormField__Label {\r\n  display: block;\r\n  text-transform: uppercase;\r\n  font-size: 0.9em;\r\n  color: white;\r\n}\r\n\r\n.FormField__Input:-webkit-autofill {\r\n  -webkit-text-fill-color: black !important;\r\n  -webkit-box-shadow: 0 0 0px 1000px white inset;\r\n  box-shadow: 0 0 0px 1000px white inset;\r\n  width: 50%;\r\n  background-color: white;\r\n  font-size: 0.9em;\r\n  border: none;\r\n  outline: none;\r\n  font-size: 1em;\r\n  font-weight: 300;\r\n  padding-bottom: 10px;\r\n  margin-top: 10px;\r\n}\r\n.FormField__Input {\r\n  text-align: left;\r\n  padding-top: 10px;\r\n  width: 50%;\r\n  background-color: white;\r\n  color: black;\r\n  outline: none;\r\n  font-size: 1em;\r\n  font-weight: 300;\r\n  padding-bottom: 10px;\r\n  padding-left: 15px;\r\n  margin-top: 10px;\r\n  font-family: \"roboto\", sans-serif;\r\n}\r\n\r\n.FormField__Input::placeholder {\r\n  color: #616e7f;\r\n}\r\n\r\n.FormField__Button {\r\n  background-color: #101010;\r\n  color: white;\r\n  border: none;\r\n  outline: none;\r\n  padding-right: 25px;\r\n  padding-left: 25px;\r\n  padding-top: 15px;\r\n  padding-bottom: 15px;\r\n  font-size: 22px;\r\n  font-weight: 400;\r\n  min-inline-size: -webkit-fill-available;\r\n}\r\n.FormField__Button:hover {\r\n  cursor: pointer;\r\n}\r\n.FormField__Link {\r\n  color: #66707d;\r\n  text-decoration: none;\r\n  display: inline-block;\r\n  border-bottom: 1.5px solid #225e62;\r\n  padding-bottom: 5px;\r\n}\r\n\r\n.FormField__CheckboxLabel {\r\n  color: #646f7d;\r\n  font-size: 0.9em;\r\n}\r\n\r\n.FormField__Checkbox {\r\n  position: relative;\r\n  top: 1.5px;\r\n}\r\n\r\n.FormField__TermsLink {\r\n  color: white;\r\n  border-bottom: 1px solid #199087;\r\n  text-decoration: none;\r\n  display: inline-block;\r\n  padding-bottom: 2px;\r\n  margin-left: 5px;\r\n}\r\n", ""]);
+exports.push([module.i, ".App {\n  height: 100vh;\n  display: flex;\n  color: white;\n}\n\n.App__Aside {\n  width: 50%;\n  background-color: white;\n  background: url(\"/images/stores.jpg\") no-repeat center center;\n  z-index: 105;\n  background-size: cover;\n}\n\n.App__Form {\n  width: 50%;\n  text-align-last: center;\n  height: 100%;\n  background-color: #101010;\n  padding: 25px 40px;\n  overflow: auto;\n  z-index: 105;\n}\n.FormCenter {\n  margin-bottom: 100px;\n}\n.or {\n  color: white;\n}\n\n.FormTitle {\n  padding-top: 20%;\n  color: black;\n  font-weight: 300;\n  margin-bottom: 50px;\n}\n\n.FormTitle__Link {\n  color: white;\n  text-decoration: none;\n  display: inline-block;\n  font-size: 1.7em;\n  margin: 0 10px;\n  padding-bottom: 5px;\n}\n\n.FormTitle__Link:first-child {\n  margin-left: 0;\n}\n\n.FormTitle__Link--Active {\n  color: white;\n  border-bottom: 1px solid white;\n  margin-bottom: 40px;\n}\n\n.FormField {\n  margin-bottom: 40px;\n}\n\n.FormField__Label {\n  display: block;\n  text-transform: uppercase;\n  font-size: 0.9em;\n  color: white;\n}\n\n.FormField__Input:-webkit-autofill {\n  -webkit-text-fill-color: black !important;\n  -webkit-box-shadow: 0 0 0px 1000px white inset;\n  box-shadow: 0 0 0px 1000px white inset;\n  width: 50%;\n  background-color: white;\n  font-size: 0.9em;\n  border: none;\n  outline: none;\n  font-size: 1em;\n  font-weight: 300;\n  padding-bottom: 10px;\n  margin-top: 10px;\n}\n.FormField__Input {\n  text-align: left;\n  padding-top: 10px;\n  width: 50%;\n  background-color: white;\n  color: black;\n  outline: none;\n  font-size: 1em;\n  font-weight: 300;\n  padding-bottom: 10px;\n  padding-left: 15px;\n  margin-top: 10px;\n  font-family: \"roboto\", sans-serif;\n}\n\n.FormField__Input::placeholder {\n  color: #616e7f;\n}\n\n.FormField__Button {\n  background-color: #101010;\n  color: white;\n  border: none;\n  outline: none;\n  padding-right: 25px;\n  padding-left: 25px;\n  padding-top: 15px;\n  padding-bottom: 15px;\n  font-size: 22px;\n  font-weight: 400;\n  min-inline-size: -webkit-fill-available;\n}\n.FormField__Button:hover {\n  cursor: pointer;\n}\n.FormField__Link {\n  color: #66707d;\n  text-decoration: none;\n  display: inline-block;\n  border-bottom: 1.5px solid #225e62;\n  padding-bottom: 5px;\n}\n\n.FormField__CheckboxLabel {\n  color: #646f7d;\n  font-size: 0.9em;\n}\n\n.FormField__Checkbox {\n  position: relative;\n  top: 1.5px;\n}\n\n.FormField__TermsLink {\n  color: white;\n  border-bottom: 1px solid #199087;\n  text-decoration: none;\n  display: inline-block;\n  padding-bottom: 2px;\n  margin-left: 5px;\n}\n", ""]);
 
 
 
@@ -565,7 +565,7 @@ exports.push([module.i, ".App {\r\n  height: 100vh;\r\n  display: flex;\r\n  col
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "body {\r\n  background-color: white;\r\n  margin: 0;\r\n}\r\n\r\n.overlay {\r\n  z-index: 50;\r\n  position: fixed;\r\n  left: 0;\r\n  right: 0;\r\n  top: 0;\r\n  bottom: 0;\r\n  background-color: rgba(0, 0, 0, 0.5);\r\n}\r\n\r\n.popup {\r\n  z-index: 100;\r\n  position: fixed;\r\n  top: 200px;\r\n  left: 200px;\r\n  right: 200px;\r\n  background-color: white;\r\n}\r\n", ""]);
+exports.push([module.i, "body {\n  background-color: white;\n  margin: 0;\n}\n\n.overlay {\n  z-index: 50;\n  position: fixed;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.popup {\n  z-index: 100;\n  position: fixed;\n  top: 200px;\n  left: 200px;\n  right: 200px;\n  background-color: white;\n}\n", ""]);
 
 
 
@@ -580,7 +580,7 @@ exports.push([module.i, "body {\r\n  background-color: white;\r\n  margin: 0;\r\
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".MainDiv {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n.FormDisplayArea {\r\n  color: white;\r\n  font-size: 1.6em;\r\n}\r\n.MapArea {\r\n  background: black;\r\n}\r\n.react-geocoder-results {\r\n  color: black;\r\n  background: white;\r\n}\r\n.navigationControl {\r\n  position: absolute;\r\n}\r\n.searchbar {\r\n  border: 1px solid black;\r\n}\r\n", ""]);
+exports.push([module.i, ".MainDiv {\n  display: flex;\n  flex-direction: column;\n}\n.FormDisplayArea {\n  color: white;\n  font-size: 1.6em;\n}\n.MapArea {\n  background: black;\n}\n.react-geocoder-results {\n  color: black;\n  background: white;\n}\n.navigationControl {\n  position: absolute;\n}\n.searchbar {\n  border: 1px solid black;\n}\n", ""]);
 
 
 
@@ -43933,7 +43933,8 @@ let reducer = (state, action) => {
 const store = Object(redux__WEBPACK_IMPORTED_MODULE_4__["createStore"])(reducer, {
   loggedIn: false,
   signedIn: false,
-  markers: []
+  markers: [],
+  itemId: ""
 }, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 react_dom__WEBPACK_IMPORTED_MODULE_0___default.a.render(react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_3__["Provider"], {
   store: store
@@ -44198,34 +44199,42 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       this.setState({
         viewport,
         selected: item.geometry.coordinates
-      });
-      console.log("Selected: ", item);
+      }); // console.log("Selected: ", item);
     });
 
     _defineProperty(this, "clickHandler", (event, viewport) => {
       console.log("event: ", event, viewport);
       let lnglat = event.lngLat;
-      console.log("lnglatTest", lnglat);
+      console.log("lnglat", lnglat);
+      let lng = lnglat[0];
+      console.log("lng", lng);
+      let lat = lnglat[1];
+      console.log("lat", lat); // console.log("lnglatTest", lnglat);
+
       let newViewport = {
         height: this.state.viewport.height,
         width: this.state.viewport.width,
         zoom: 15,
         latitude: lnglat[1],
-        longitude: lnglat[0],
-        markersActivation: true
+        longitude: lnglat[0]
       };
+      let newPopup = {
+        latitude: lat,
+        longitude: lng
+      };
+      console.log("state", this.state);
       this.setState({
         viewport: newViewport,
-        markers: this.state.markers.concat(lnglat),
-        displayMarker: true
+        popup: newPopup,
+        showPopup: true
       });
+      console.log("state", this.state);
     });
 
     _defineProperty(this, "displayLostForm", () => {
       this.setState({ ...this.state,
         displayLostForm: !this.state.displayLostForm
-      });
-      console.log("this.state.displayLostForm", this.state.displayLostForm);
+      }); // console.log("this.state.displayLostForm", this.state.displayLostForm);
     });
 
     _defineProperty(this, "logoutHandler", async () => {
@@ -44246,8 +44255,8 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     });
 
     _defineProperty(this, "geocoderHandler", async event => {
-      event.preventDefault();
-      console.log("input", event.target.value);
+      event.preventDefault(); // console.log("input", event.target.value);
+
       let str = event.target.value;
       let encodedUrl = str.replace(" ", "+");
       let response = await (await fetch("https://maps.googleapis.com/maps/api/geocode/json?address=" + encodedUrl + "&key=AIzaSyCCdevCVVY-LTMoB9Hsm4pWaxHsWC_ojMg", {
@@ -44273,13 +44282,191 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       }
     });
 
+    _defineProperty(this, "uploadPicture", e => {
+      let newFormInput = {
+        animalType: this.state.formInput.animalType,
+        animalName: this.state.formInput.animalName,
+        animalAge: this.state.formInput.animalAge,
+        animalGender: this.state.formInput.animalGender,
+        animalEvent: this.state.formInput.animalEvent,
+        AnimalDescription: this.state.formInput.animalDescription,
+        AnimalImage: [e]
+      };
+      this.setState({
+        formInput: newFormInput
+      });
+    });
+
+    _defineProperty(this, "animalTypeHandler", event => {
+      let newFormInput = {
+        animalType: event.target.value,
+        animalName: this.state.formInput.animalName,
+        animalAge: this.state.formInput.animalAge,
+        animalGender: this.state.formInput.animalGender,
+        animalEvent: this.state.formInput.animalEvent,
+        AnimalDescription: this.state.formInput.animalDescription,
+        AnimalImage: this.state.formInput.animalImage
+      };
+      this.setState({
+        formInput: newFormInput
+      });
+    });
+
+    _defineProperty(this, "animalNameHandler", event => {
+      let newFormInput = {
+        animalType: this.state.formInput.animalType,
+        animalName: event.target.value,
+        animalAge: this.state.formInput.animalAge,
+        animalGender: this.state.formInput.animalGender,
+        animalEvent: this.state.formInput.animalEvent,
+        AnimalDescription: this.state.formInput.animalDescription,
+        AnimalImage: this.state.formInput.animalImage
+      };
+      this.setState({
+        formInput: newFormInput
+      });
+    });
+
+    _defineProperty(this, "animalRaceHandler", event => {
+      let newFormInput = {
+        animalType: this.state.formInput.animalType,
+        animalName: this.state.formInput.animalName,
+        animalRace: event.target.value,
+        animalAge: this.state.formInput.animalAge,
+        animalGender: this.state.formInput.animalGender,
+        animalEvent: this.state.formInput.animalEvent,
+        AnimalDescription: this.state.formInput.animalDescription,
+        AnimalImage: this.state.formInput.animalImage
+      };
+      this.setState({
+        formInput: newFormInput
+      });
+    });
+
+    _defineProperty(this, "animalAgeHandler", event => {
+      let newFormInput = {
+        animalType: this.state.formInput.animalType,
+        animalName: this.state.formInput.animalName,
+        animalAge: event.target.value,
+        animalGender: this.state.formInput.animalGender,
+        animalEvent: this.state.formInput.animalEvent,
+        AnimalDescription: this.state.formInput.animalDescription,
+        AnimalImage: this.state.formInput.animalImage
+      };
+      this.setState({
+        formInput: newFormInput
+      });
+    });
+
+    _defineProperty(this, "animalGenderHandler", event => {
+      let newFormInput = {
+        animalType: this.state.formInput.animalType,
+        animalName: this.state.formInput.animalName,
+        animalAge: this.state.formInput.animalAge,
+        animalGender: event.target.value,
+        animalEvent: this.state.formInput.animalEvent,
+        AnimalDescription: this.state.formInput.animalDescription,
+        AnimalImage: this.state.formInput.animalImage
+      };
+      this.setState({
+        formInput: newFormInput
+      });
+    });
+
+    _defineProperty(this, "animalEventHandler", event => {
+      let newFormInput = {
+        animalType: this.state.formInput.animalType,
+        animalName: this.state.formInput.animalName,
+        animalAge: this.state.formInput.animalAge,
+        animalGender: this.state.formInput.animalGender,
+        animalEvent: event.target.value,
+        AnimalDescription: this.state.formInput.animalDescription,
+        AnimalImage: this.state.formInput.animalImage
+      };
+      this.setState({
+        formInput: newFormInput
+      });
+    });
+
+    _defineProperty(this, "animalDescriptionHandler", event => {
+      let newFormInput = {
+        animalType: this.state.formInput.animalType,
+        animalName: this.state.formInput.animalName,
+        animalAge: this.state.formInput.animalAge,
+        animalGender: this.state.formInput.animalGender,
+        animalEvent: this.state.formInput.animalEvent,
+        AnimalDescription: event.target.value,
+        AnimalImage: this.state.formInput.animalImage
+      };
+      this.setState({
+        formInput: newFormInput
+      });
+    });
+
+    _defineProperty(this, "handleItemName", event => {
+      this.setState({
+        inputItemName: event.target.value
+      });
+    });
+
+    _defineProperty(this, "handleSubmit", event => {
+      event.preventDefault();
+      let testlat = this.state.markers.latitude.concat(this.state.popup.latitude);
+      let testlng = this.state.markers.longitude.concat(this.state.popup.longitude);
+      let newMarker = {
+        latitude: testlat,
+        longitude: testlng
+      };
+      console.log("newMarker", newMarker);
+      this.setState({
+        markers: newMarker,
+        displayMarker: true
+      });
+      let formData = new FormData();
+      formData.append("type", this.state.formInput.animalType);
+      formData.append("name", this.state.formInput.animalName);
+      formData.append("race", this.state.formInput.animalRace);
+      formData.append("age", this.state.formInput.animalAge);
+      formData.append("gender", this.state.formInput.animalGender);
+      formData.append("event", this.state.formInput.animalEvent);
+      formData.append("description", this.state.formInput.animalDescription);
+      formData.append("animalImage", this.state.formInput.AnimalImage);
+      fetch("/new-pet", {
+        method: "POST",
+        body: formData
+      }).then(response => response.text()).then(response => {
+        let petId = JSON.parse(response);
+        this.setState({
+          petId: petId
+        });
+        this.props.getItemId(petId); // receives the itemID from the backend
+      });
+    });
+
     this.state = {
-      displayLostForm: false,
       displayMarker: false,
-      markers: [],
+      showPopup: false,
+      popup: {
+        latitude: {},
+        longitude: {}
+      },
+      markers: {
+        latitude: {},
+        longitude: {}
+      },
+      formInput: {
+        animalType: "",
+        animalName: "",
+        animalRace: "",
+        animalAge: "",
+        animalGender: "",
+        animalImage: [],
+        animalDescription: "",
+        animalEvent: ""
+      },
       viewport: {
         width: "100vw",
-        height: "80vh",
+        height: "96vh",
         latitude: 45.451625,
         longitude: -73.575608,
         zoom: 12
@@ -44289,10 +44476,11 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
   render() {
     console.log(this.state);
-    console.log("markerslng", this.state.markers); // const { showPopup } = this.state.showPopup;
-
     const {
       viewport
+    } = this.state;
+    const {
+      showPopup
     } = this.state; // if (this.props.loggedIn) {
 
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -44303,7 +44491,8 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       type: "text",
       className: "GeocoderText",
       value: this.state.addressInfo,
-      placeholder: "Enter your address here"
+      placeholder: "Enter your address here",
+      onChange: this.geocoderHandler
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "NavBar"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -44324,37 +44513,105 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "navigationControl"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_map_gl__WEBPACK_IMPORTED_MODULE_4__["NavigationControl"], null)), this.state.displayMarker ? // {this.state.markers.map(markers =>(
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_map_gl__WEBPACK_IMPORTED_MODULE_4__["Marker"], {
-      latitude: this.state.markers[1],
-      longitude: this.state.markers[0]
+      latitude: this.state.markers.latitude,
+      longitude: this.state.markers.longitude
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       src: "/pawIcon.png",
       width: "30px"
     })) : // )}
-    null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "FormDisplayArea"
+    null, this.state.showPopup ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_map_gl__WEBPACK_IMPORTED_MODULE_4__["Popup"], {
+      latitude: this.state.popup.latitude,
+      longitude: this.state.popup.longitude,
+      closeButton: true,
+      closeOnClick: false,
+      onClose: () => this.setState({
+        showPopup: false,
+        popuplat: [],
+        popuplng: []
+      }),
+      anchor: "top"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "FormDisplayButton"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-      className: "FormButton",
-      onClick: this.displayLostForm
-    }, this.state.displayLostForm ? "Close the form" : "Lost your animal? Click here")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "FormInputArea",
-      style: {
-        display: this.state.displayLostForm ? "block" : "none"
-      }
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", null, "Cat or Dog? :", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      className: "popupFormDiv"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+      className: "popupFormArea",
+      onSubmit: this.handleSubmit
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "FormAnimalType"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Did you lost a dog or a cat ?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
       type: "radio",
       name: "categorie-cat",
-      value: "cat"
+      value: "cat",
+      onChange: this.animalTypeHandler
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
       htmlFor: "cat"
     }, "Cat"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
       type: "radio",
       name: "categorie-dog",
-      value: "dog"
+      value: "dog",
+      onChange: this.animalTypeHandler
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
       htmlFor: "dog"
-    }, "Dog"))))); // } else {
+    }, "Dog")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "FormAnimalName"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, " Enter the name of your pet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      type: "text",
+      className: "animalNameInput",
+      onChange: this.animalNameHandler,
+      placeholder: "Name of the animal"
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "FormAnimalRace"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Enter the race of your pet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      type: "text",
+      className: "animalNameInput",
+      onChange: this.animalRaceHandler,
+      placeholder: "Race of the animal"
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "FormAnimalAge"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, " Enter the age of your pet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      type: "text",
+      className: "animalAgeInput",
+      onChange: this.animalAgeHandler,
+      placeholder: "Age of the animal"
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "FormAnimalGender"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Enter the gender of your pet "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      type: "radio",
+      name: "gender-female",
+      value: "female",
+      onChange: this.animalGenderHandler
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+      htmlFor: "female"
+    }, "female"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      type: "radio",
+      name: "gender-male",
+      value: "male",
+      onChange: this.animalGenderHandler
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+      htmlFor: "male"
+    }, "male")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "FormAnimalEvent"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, " Write a description of how you lost your pet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      type: "text",
+      className: "animalEvent",
+      onChange: this.animalEventHandler,
+      placeholder: "Describe the event"
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "FormAnimalDescription"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, " Write a description of your pet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      type: "text",
+      className: "animalEvent",
+      onChange: this.animalDescriptionHandler,
+      placeholder: "Describe your pet"
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "animalPictures"
+    }, "Upload an image:", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      type: "file",
+      id: "input",
+      onChange: e => this.uploadPicture(e.target.files[0])
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      type: "submit",
+      className: "submitFormButton"
+    })))) : null)); // } else {
     //   return <Redirect to="/signup" />;
     // }
   }
