@@ -4,7 +4,7 @@ import AppBar from "material-ui/AppBar";
 import TextField from "material-ui/TextField";
 import RaisedButton from "material-ui/RaisedButton";
 
-export class FormAnimalDetailsTwo extends Component {
+export class FormAnimalDetailsEvent extends Component {
   continue = e => {
     e.preventDefault();
     this.props.nextStep();
@@ -14,31 +14,18 @@ export class FormAnimalDetailsTwo extends Component {
     e.preventDefault();
     this.props.prevStep();
   };
+
   render() {
     const { values, handleChange } = this.props;
     return (
       <MuiThemeProvider>
         <React.Fragment>
-          <AppBar title="Enter Animal Details" />
+          <AppBar title="useful information on the event" />
           <TextField
-            hintText="Animal Age"
-            floatingLabelText="Age"
-            onChange={handleChange("animalAge")}
-            defaultValue={values.animalAge}
-          />
-          <br />
-          <TextField
-            hintText="Animal Gender"
-            floatingLabelText="Gender"
-            onChange={handleChange("animalGender")}
-            defaultValue={values.animalGender}
-          />
-          <br />
-          <TextField
-            hintText="Animal Description"
-            floatingLabelText="Description"
-            onChange={handleChange("animalDescription")}
-            defaultValue={values.animalDescription}
+            hintText="Information here"
+            floatingLabelText="information"
+            onChange={handleChange("animalEvent")}
+            defaultValue={values.animalEvent}
           />
           <br />
           <RaisedButton
@@ -65,4 +52,4 @@ const styles = {
   }
 };
 
-export default FormAnimalDetailsTwo;
+export default FormAnimalDetailsEvent;

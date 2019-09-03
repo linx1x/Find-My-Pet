@@ -13518,7 +13518,22 @@ module.exports = exports['default'];
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".App {\n  height: 100vh;\n  display: flex;\n  color: white;\n}\n\n.App__Aside {\n  width: 50%;\n  background-color: white;\n  background: url(\"/images/stores.jpg\") no-repeat center center;\n  z-index: 105;\n  background-size: cover;\n}\n\n.App__Form {\n  width: 50%;\n  text-align-last: center;\n  height: 100%;\n  background-color: #101010;\n  padding: 25px 40px;\n  overflow: auto;\n  z-index: 105;\n}\n.FormCenter {\n  margin-bottom: 100px;\n}\n.or {\n  color: white;\n}\n\n.FormTitle {\n  padding-top: 20%;\n  color: black;\n  font-weight: 300;\n  margin-bottom: 50px;\n}\n\n.FormTitle__Link {\n  color: white;\n  text-decoration: none;\n  display: inline-block;\n  font-size: 1.7em;\n  margin: 0 10px;\n  padding-bottom: 5px;\n}\n\n.FormTitle__Link:first-child {\n  margin-left: 0;\n}\n\n.FormTitle__Link--Active {\n  color: white;\n  border-bottom: 1px solid white;\n  margin-bottom: 40px;\n}\n\n.FormField {\n  margin-bottom: 40px;\n}\n\n.FormField__Label {\n  display: block;\n  text-transform: uppercase;\n  font-size: 0.9em;\n  color: white;\n}\n\n.FormField__Input:-webkit-autofill {\n  -webkit-text-fill-color: black !important;\n  -webkit-box-shadow: 0 0 0px 1000px white inset;\n  box-shadow: 0 0 0px 1000px white inset;\n  width: 50%;\n  background-color: white;\n  font-size: 0.9em;\n  border: none;\n  outline: none;\n  font-size: 1em;\n  font-weight: 300;\n  padding-bottom: 10px;\n  margin-top: 10px;\n}\n.FormField__Input {\n  text-align: left;\n  padding-top: 10px;\n  width: 50%;\n  background-color: white;\n  color: black;\n  outline: none;\n  font-size: 1em;\n  font-weight: 300;\n  padding-bottom: 10px;\n  padding-left: 15px;\n  margin-top: 10px;\n  font-family: \"roboto\", sans-serif;\n}\n\n.FormField__Input::placeholder {\n  color: #616e7f;\n}\n\n.FormField__Button {\n  background-color: #101010;\n  color: white;\n  border: none;\n  outline: none;\n  padding-right: 25px;\n  padding-left: 25px;\n  padding-top: 15px;\n  padding-bottom: 15px;\n  font-size: 22px;\n  font-weight: 400;\n  min-inline-size: -webkit-fill-available;\n}\n.FormField__Button:hover {\n  cursor: pointer;\n}\n.FormField__Link {\n  color: #66707d;\n  text-decoration: none;\n  display: inline-block;\n  border-bottom: 1.5px solid #225e62;\n  padding-bottom: 5px;\n}\n\n.FormField__CheckboxLabel {\n  color: #646f7d;\n  font-size: 0.9em;\n}\n\n.FormField__Checkbox {\n  position: relative;\n  top: 1.5px;\n}\n\n.FormField__TermsLink {\n  color: white;\n  border-bottom: 1px solid #199087;\n  text-decoration: none;\n  display: inline-block;\n  padding-bottom: 2px;\n  margin-left: 5px;\n}\n", ""]);
+exports.push([module.i, ".App {\r\n  height: 100vh;\r\n  display: flex;\r\n  color: white;\r\n}\r\n\r\n.App__Aside {\r\n  width: 50%;\r\n  background-color: white;\r\n  background: url(\"/images/stores.jpg\") no-repeat center center;\r\n  z-index: 105;\r\n  background-size: cover;\r\n}\r\n\r\n.App__Form {\r\n  width: 50%;\r\n  text-align-last: center;\r\n  height: 100%;\r\n  background-color: #101010;\r\n  padding: 25px 40px;\r\n  overflow: auto;\r\n  z-index: 105;\r\n}\r\n.FormCenter {\r\n  margin-bottom: 100px;\r\n}\r\n.or {\r\n  color: white;\r\n}\r\n\r\n.FormTitle {\r\n  padding-top: 20%;\r\n  color: black;\r\n  font-weight: 300;\r\n  margin-bottom: 50px;\r\n}\r\n\r\n.FormTitle__Link {\r\n  color: white;\r\n  text-decoration: none;\r\n  display: inline-block;\r\n  font-size: 1.7em;\r\n  margin: 0 10px;\r\n  padding-bottom: 5px;\r\n}\r\n\r\n.FormTitle__Link:first-child {\r\n  margin-left: 0;\r\n}\r\n\r\n.FormTitle__Link--Active {\r\n  color: white;\r\n  border-bottom: 1px solid white;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.FormField {\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.FormField__Label {\r\n  display: block;\r\n  text-transform: uppercase;\r\n  font-size: 0.9em;\r\n  color: white;\r\n}\r\n\r\n.FormField__Input:-webkit-autofill {\r\n  -webkit-text-fill-color: black !important;\r\n  -webkit-box-shadow: 0 0 0px 1000px white inset;\r\n  box-shadow: 0 0 0px 1000px white inset;\r\n  width: 50%;\r\n  background-color: white;\r\n  font-size: 0.9em;\r\n  border: none;\r\n  outline: none;\r\n  font-size: 1em;\r\n  font-weight: 300;\r\n  padding-bottom: 10px;\r\n  margin-top: 10px;\r\n}\r\n.FormField__Input {\r\n  text-align: left;\r\n  padding-top: 10px;\r\n  width: 50%;\r\n  background-color: white;\r\n  color: black;\r\n  outline: none;\r\n  font-size: 1em;\r\n  font-weight: 300;\r\n  padding-bottom: 10px;\r\n  padding-left: 15px;\r\n  margin-top: 10px;\r\n  font-family: \"roboto\", sans-serif;\r\n}\r\n\r\n.FormField__Input::placeholder {\r\n  color: #616e7f;\r\n}\r\n\r\n.FormField__Button {\r\n  background-color: #101010;\r\n  color: white;\r\n  border: none;\r\n  outline: none;\r\n  padding-right: 25px;\r\n  padding-left: 25px;\r\n  padding-top: 15px;\r\n  padding-bottom: 15px;\r\n  font-size: 22px;\r\n  font-weight: 400;\r\n  min-inline-size: -webkit-fill-available;\r\n}\r\n.FormField__Button:hover {\r\n  cursor: pointer;\r\n}\r\n.FormField__Link {\r\n  color: #66707d;\r\n  text-decoration: none;\r\n  display: inline-block;\r\n  border-bottom: 1.5px solid #225e62;\r\n  padding-bottom: 5px;\r\n}\r\n\r\n.FormField__CheckboxLabel {\r\n  color: #646f7d;\r\n  font-size: 0.9em;\r\n}\r\n\r\n.FormField__Checkbox {\r\n  position: relative;\r\n  top: 1.5px;\r\n}\r\n\r\n.FormField__TermsLink {\r\n  color: white;\r\n  border-bottom: 1px solid #199087;\r\n  text-decoration: none;\r\n  display: inline-block;\r\n  padding-bottom: 2px;\r\n  margin-left: 5px;\r\n}\r\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/formAnimalPicture.css":
+/*!*************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/formAnimalPicture.css ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".files input {\r\n  outline: 2px dashed #92b0b3;\r\n  outline-offset: -10px;\r\n  -webkit-transition: outline-offset 0.15s ease-in-out,\r\n    background-color 0.15s linear;\r\n  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;\r\n  padding: 120px 0px 85px 35%;\r\n  text-align: center !important;\r\n  margin: 0;\r\n  /* width: 100% !important; */\r\n}\r\n.files input:focus {\r\n  outline: 2px dashed #92b0b3;\r\n  outline-offset: -10px;\r\n  -webkit-transition: outline-offset 0.15s ease-in-out,\r\n    background-color 0.15s linear;\r\n  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;\r\n  border: 1px solid #92b0b3;\r\n}\r\n.files {\r\n  position: relative;\r\n}\r\n.files:after {\r\n  pointer-events: none;\r\n  position: absolute;\r\n  top: 60px;\r\n  left: 0;\r\n  width: 50px;\r\n  right: 0;\r\n  height: 56px;\r\n  content: \"\";\r\n  background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);\r\n  display: block;\r\n  margin: 0 auto;\r\n  background-size: 100%;\r\n  background-repeat: no-repeat;\r\n}\r\n.color input {\r\n  background-color: #f1f1f1;\r\n}\r\n.files:before {\r\n  position: absolute;\r\n  bottom: 10px;\r\n  left: 0;\r\n  pointer-events: none;\r\n  width: 100%;\r\n  right: 0;\r\n  height: 57px;\r\n  content: \" or drag it here. \";\r\n  display: block;\r\n  margin: 0 auto;\r\n  color: #2ea591;\r\n  font-weight: 600;\r\n  text-transform: capitalize;\r\n  text-align: center;\r\n}\r\n", ""]);
 
 
 
@@ -13533,7 +13548,7 @@ exports.push([module.i, ".App {\n  height: 100vh;\n  display: flex;\n  color: wh
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "body {\n  background-color: white;\n  margin: 0;\n}\n\n.overlay {\n  z-index: 50;\n  position: fixed;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.popup {\n  z-index: 100;\n  position: fixed;\n  top: 200px;\n  left: 200px;\n  right: 200px;\n  background-color: white;\n}\n", ""]);
+exports.push([module.i, "body {\r\n  background-color: white;\r\n  margin: 0;\r\n}\r\n\r\n.overlay {\r\n  z-index: 50;\r\n  position: fixed;\r\n  left: 0;\r\n  right: 0;\r\n  top: 0;\r\n  bottom: 0;\r\n  background-color: rgba(0, 0, 0, 0.5);\r\n}\r\n\r\n.popup {\r\n  z-index: 100;\r\n  position: fixed;\r\n  top: 200px;\r\n  left: 200px;\r\n  right: 200px;\r\n  background-color: white;\r\n}\r\n", ""]);
 
 
 
@@ -13548,7 +13563,7 @@ exports.push([module.i, "body {\n  background-color: white;\n  margin: 0;\n}\n\n
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".MainDiv {\n  display: flex;\n  flex-direction: column;\n}\n.FormDisplayArea {\n  color: white;\n  font-size: 1.6em;\n}\n.MapArea {\n  background: black;\n  position: relative;\n}\n.react-geocoder-results {\n  color: black;\n  background: white;\n}\n.navigationControl {\n  position: absolute;\n}\n.searchbar {\n  border: 1px solid black;\n}\n.theMap {\n  z-index: 0;\n}\n.popup {\n  z-index: 1;\n}\n.GeocoderDiv {\n  position: absolute;\n}\n", ""]);
+exports.push([module.i, ".MainDiv {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n.FormDisplayArea {\r\n  color: white;\r\n  font-size: 1.6em;\r\n}\r\n.MapArea {\r\n  background: black;\r\n}\r\n.react-geocoder-results {\r\n  color: black;\r\n  background: white;\r\n}\r\n.navigationControl {\r\n  position: absolute;\r\n}\r\n.searchbar {\r\n  border: 1px solid black;\r\n}\r\n.theMap {\r\n  z-index: 0;\r\n}\r\n.popup {\r\n  z-index: 1;\r\n  background-color: transparent;\r\n}\r\n", ""]);
 
 
 
@@ -65683,7 +65698,7 @@ function warning(message) {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -74372,6 +74387,83 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./src/formAnimalDetailsEvent.jsx":
+/*!****************************************!*\
+  !*** ./src/formAnimalDetailsEvent.jsx ***!
+  \****************************************/
+/*! exports provided: FormAnimalDetailsEvent, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormAnimalDetailsEvent", function() { return FormAnimalDetailsEvent; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var material_ui_styles_MuiThemeProvider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! material-ui/styles/MuiThemeProvider */ "./node_modules/material-ui/styles/MuiThemeProvider.js");
+/* harmony import */ var material_ui_styles_MuiThemeProvider__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(material_ui_styles_MuiThemeProvider__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var material_ui_AppBar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! material-ui/AppBar */ "./node_modules/material-ui/AppBar/index.js");
+/* harmony import */ var material_ui_AppBar__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(material_ui_AppBar__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var material_ui_TextField__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! material-ui/TextField */ "./node_modules/material-ui/TextField/index.js");
+/* harmony import */ var material_ui_TextField__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(material_ui_TextField__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var material_ui_RaisedButton__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! material-ui/RaisedButton */ "./node_modules/material-ui/RaisedButton/index.js");
+/* harmony import */ var material_ui_RaisedButton__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(material_ui_RaisedButton__WEBPACK_IMPORTED_MODULE_4__);
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+
+
+class FormAnimalDetailsEvent extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(...args) {
+    super(...args);
+
+    _defineProperty(this, "continue", e => {
+      e.preventDefault();
+      this.props.nextStep();
+    });
+
+    _defineProperty(this, "back", e => {
+      e.preventDefault();
+      this.props.prevStep();
+    });
+  }
+
+  render() {
+    const {
+      values,
+      handleChange
+    } = this.props;
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_styles_MuiThemeProvider__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_AppBar__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      title: "useful information on the event"
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_TextField__WEBPACK_IMPORTED_MODULE_3___default.a, {
+      hintText: "Information here",
+      floatingLabelText: "information",
+      onChange: handleChange("animalEvent"),
+      defaultValue: values.animalEvent
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_RaisedButton__WEBPACK_IMPORTED_MODULE_4___default.a, {
+      label: "Continue",
+      primary: true,
+      style: styles.button,
+      onClick: this.continue
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_RaisedButton__WEBPACK_IMPORTED_MODULE_4___default.a, {
+      label: "Back",
+      primary: false,
+      style: styles.button,
+      onClick: this.back
+    })));
+  }
+
+}
+const styles = {
+  button: {
+    margin: 15
+  }
+};
+/* harmony default export */ __webpack_exports__["default"] = (FormAnimalDetailsEvent);
+
+/***/ }),
+
 /***/ "./src/formAnimalDetailsOne.jsx":
 /*!**************************************!*\
   !*** ./src/formAnimalDetailsOne.jsx ***!
@@ -74424,11 +74516,10 @@ class FormAnimalDetailsOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component
       values,
       handleChange
     } = this.props;
-    console.log("test world");
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_styles_MuiThemeProvider__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_AppBar__WEBPACK_IMPORTED_MODULE_2___default.a, {
       title: "Enter Animal Details"
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_RadioGroup__WEBPACK_IMPORTED_MODULE_6__["default"], {
-      "aria-label": "typ",
+      "aria-label": "type",
       name: "type" //   className={classes.group}
       //   value={value}
       ,
@@ -74437,21 +74528,21 @@ class FormAnimalDetailsOne extends react__WEBPACK_IMPORTED_MODULE_0__["Component
       value: "cat",
       control: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Radio__WEBPACK_IMPORTED_MODULE_5__["default"], null),
       label: "cat",
-      onChange: handleChange("animalType")
+      onChange: (handleChange("animalType"), console.log("values", values))
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_FormControlLabel__WEBPACK_IMPORTED_MODULE_8__["default"], {
       value: "dog",
       control: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Radio__WEBPACK_IMPORTED_MODULE_5__["default"], null),
       label: "dog",
-      onChange: handleChange("animalType")
+      onChange: (handleChange("animalType"), console.log("values", values))
     }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_TextField__WEBPACK_IMPORTED_MODULE_3___default.a, {
       hintText: "Animal Name",
       floatingLabelText: "Name",
-      onChange: handleChange("animalName"),
+      onChange: handleChange("animalName", console.log("values", values)),
       defaultValue: values.animalName
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_TextField__WEBPACK_IMPORTED_MODULE_3___default.a, {
       hintText: "Animal Race",
       floatingLabelText: "Race",
-      onChange: handleChange("animalRace"),
+      onChange: handleChange("animalRace", console.log("values", values)),
       defaultValue: values.animalRace
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_RaisedButton__WEBPACK_IMPORTED_MODULE_4___default.a, {
       label: "Continue",
@@ -74518,7 +74609,6 @@ class FormAnimalDetailsTwo extends react__WEBPACK_IMPORTED_MODULE_0__["Component
       values,
       handleChange
     } = this.props;
-    console.log("test world");
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_styles_MuiThemeProvider__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_AppBar__WEBPACK_IMPORTED_MODULE_2___default.a, {
       title: "Enter Animal Details"
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_TextField__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -74531,11 +74621,6 @@ class FormAnimalDetailsTwo extends react__WEBPACK_IMPORTED_MODULE_0__["Component
       floatingLabelText: "Gender",
       onChange: handleChange("animalGender"),
       defaultValue: values.animalGender
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_TextField__WEBPACK_IMPORTED_MODULE_3___default.a, {
-      hintText: "Animal Age",
-      floatingLabelText: "Age",
-      onChange: handleChange("animalAge"),
-      defaultValue: values.animalAge
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_TextField__WEBPACK_IMPORTED_MODULE_3___default.a, {
       hintText: "Animal Description",
       floatingLabelText: "Description",
@@ -74561,6 +74646,130 @@ const styles = {
   }
 };
 /* harmony default export */ __webpack_exports__["default"] = (FormAnimalDetailsTwo);
+
+/***/ }),
+
+/***/ "./src/formAnimalPicture.css":
+/*!***********************************!*\
+  !*** ./src/formAnimalPicture.css ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js!./formAnimalPicture.css */ "./node_modules/css-loader/dist/cjs.js!./src/formAnimalPicture.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./src/formAnimalPicture.jsx":
+/*!***********************************!*\
+  !*** ./src/formAnimalPicture.jsx ***!
+  \***********************************/
+/*! exports provided: FormAnimalPicture, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormAnimalPicture", function() { return FormAnimalPicture; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var material_ui_styles_MuiThemeProvider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! material-ui/styles/MuiThemeProvider */ "./node_modules/material-ui/styles/MuiThemeProvider.js");
+/* harmony import */ var material_ui_styles_MuiThemeProvider__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(material_ui_styles_MuiThemeProvider__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var material_ui_AppBar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! material-ui/AppBar */ "./node_modules/material-ui/AppBar/index.js");
+/* harmony import */ var material_ui_AppBar__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(material_ui_AppBar__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var material_ui_TextField__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! material-ui/TextField */ "./node_modules/material-ui/TextField/index.js");
+/* harmony import */ var material_ui_TextField__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(material_ui_TextField__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var material_ui_RaisedButton__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! material-ui/RaisedButton */ "./node_modules/material-ui/RaisedButton/index.js");
+/* harmony import */ var material_ui_RaisedButton__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(material_ui_RaisedButton__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _formAnimalPicture_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./formAnimalPicture.css */ "./src/formAnimalPicture.css");
+/* harmony import */ var _formAnimalPicture_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_formAnimalPicture_css__WEBPACK_IMPORTED_MODULE_5__);
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+
+
+
+class FormAnimalPicture extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(...args) {
+    super(...args);
+
+    _defineProperty(this, "continue", e => {
+      e.preventDefault();
+      this.props.nextStep();
+    });
+
+    _defineProperty(this, "back", e => {
+      e.preventDefault();
+      this.props.prevStep();
+    });
+  }
+
+  render() {
+    const {
+      values,
+      handleChange,
+      handleSubmit
+    } = this.props;
+    console.log("test world");
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_styles_MuiThemeProvider__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "container"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "row"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      class: "col-md-6"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+      method: "post",
+      action: "#",
+      id: "#"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      class: "form-group files color"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+      className: "form-label"
+    }, "Upload pictures of your pet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      type: "file",
+      className: "form-control",
+      multiple: "",
+      onChange: handleChange("animalImage")
+    })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_RaisedButton__WEBPACK_IMPORTED_MODULE_4___default.a, {
+      label: "Continue",
+      primary: true,
+      style: styles.button,
+      onClick: handleSubmit
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_RaisedButton__WEBPACK_IMPORTED_MODULE_4___default.a, {
+      label: "Back",
+      primary: false,
+      style: styles.button,
+      onClick: this.back
+    })));
+  }
+
+}
+const styles = {
+  button: {
+    margin: 15
+  }
+};
+/* harmony default export */ __webpack_exports__["default"] = (FormAnimalPicture);
 
 /***/ }),
 
@@ -74622,6 +74831,13 @@ let reducer = (state, action) => {
     };
   }
 
+  if (action.type === "animalDetails") {
+    console.log("animal image uploaded");
+    return { ...state,
+      animalsDetails: action.payload
+    };
+  }
+
   return state;
 };
 
@@ -74629,7 +74845,17 @@ const store = Object(redux__WEBPACK_IMPORTED_MODULE_4__["createStore"])(reducer,
   loggedIn: false,
   signedIn: false,
   markers: [],
-  itemId: ""
+  animalsDetails: {
+    animalId: "",
+    animalType: "",
+    animalName: "",
+    animalRace: "",
+    animalAge: "",
+    animalGender: "",
+    animalImage: [],
+    animalDescription: "",
+    animalEvent: ""
+  }
 }, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 react_dom__WEBPACK_IMPORTED_MODULE_0___default.a.render(react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_3__["Provider"], {
   store: store
@@ -74900,32 +75126,36 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     });
 
     _defineProperty(this, "clickHandler", (event, viewport) => {
-      console.log("event: ", event, viewport);
-      let lnglat = event.lngLat;
-      console.log("lnglat", lnglat);
-      let lng = lnglat[0];
-      console.log("lng", lng);
-      let lat = lnglat[1];
-      console.log("lat", lat); // console.log("lnglatTest", lnglat);
+      if (this.state.showPopup === true) {
+        return;
+      } else {
+        console.log("event: ", event, viewport);
+        let lnglat = event.lngLat;
+        console.log("lnglat", lnglat);
+        let lng = lnglat[0];
+        console.log("lng", lng);
+        let lat = lnglat[1];
+        console.log("lat", lat); // console.log("lnglatTest", lnglat);
 
-      let newViewport = {
-        height: this.state.viewport.height,
-        width: this.state.viewport.width,
-        zoom: 15,
-        latitude: lnglat[1],
-        longitude: lnglat[0]
-      };
-      let newPopup = {
-        latitude: lat,
-        longitude: lng
-      };
-      console.log("state", this.state);
-      this.setState({
-        viewport: newViewport,
-        popup: newPopup,
-        showPopup: true
-      });
-      console.log("state", this.state);
+        let newViewport = {
+          height: this.state.viewport.height,
+          width: this.state.viewport.width,
+          zoom: 15,
+          latitude: lnglat[1],
+          longitude: lnglat[0]
+        };
+        let newPopup = {
+          latitude: lat,
+          longitude: lng
+        };
+        console.log("state", this.state);
+        this.setState({
+          viewport: newViewport,
+          popup: newPopup,
+          showPopup: true
+        });
+        console.log("state", this.state);
+      }
     });
 
     _defineProperty(this, "displayLostForm", () => {
@@ -74989,8 +75219,7 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     _defineProperty(this, "handleSubmit", event => {
       event.preventDefault();
       let testlat = this.state.popup.latitude;
-      let testlng = this.state.popup.latitude;
-      this.state.popup.longitude;
+      let testlng = this.state.popup.longitude;
       let newMarker = {
         latitude: testlat,
         longitude: testlng
@@ -75001,14 +75230,15 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         displayMarker: true
       });
       let formData = new FormData();
-      formData.append("type", this.state.formInput.animalType);
-      formData.append("name", this.state.formInput.animalName);
-      formData.append("race", this.state.formInput.animalRace);
-      formData.append("age", this.state.formInput.animalAge);
-      formData.append("gender", this.state.formInput.animalGender);
-      formData.append("event", this.state.formInput.animalEvent);
-      formData.append("description", this.state.formInput.animalDescription);
-      formData.append("animalImage", this.state.formInput.AnimalImage);
+      formData.append("type", this.props.animalsDetails.animalType);
+      console.log("animalType", this.props.animalsDetails.animalType);
+      formData.append("name", this.props.animalsDetails.animalName);
+      formData.append("race", this.props.animalsDetails.animalRace);
+      formData.append("age", this.props.animalsDetails.animalAge);
+      formData.append("gender", this.props.animalsDetails.animalGender);
+      formData.append("event", this.props.animalsDetails.animalEvent);
+      formData.append("description", this.props.animalsDetails.animalDescription);
+      formData.append("animalImage", this.props.animalsDetails.AnimalImage);
       fetch("/new-pet", {
         method: "POST",
         body: formData
@@ -75083,7 +75313,7 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       onViewportChange: viewport => this.setState({
         viewport
       }),
-      ondblclick: this.clickHandler,
+      onClick: this.clickHandler,
       className: "theMap"
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "navigationControl"
@@ -75102,13 +75332,19 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       longitude: this.state.popup.longitude,
       closeButton: true,
       closeOnClick: false,
+      captureClick: true,
+      dynamicPosition: true,
       onClose: () => this.setState({
         showPopup: false,
         popuplat: [],
         popuplng: []
       }),
       anchor: "top"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_userForm_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], null))) : null))); // } else {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_userForm_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      latitude: this.state.popup.latitude,
+      longitude: this.state.popup.longitude,
+      handleSubmit: this.handleSubmit
+    }))) : null))); // } else {
     //   return <Redirect to="/signup" />;
     // }
   }
@@ -75117,7 +75353,8 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 let mapStatetoProps = state => {
   return {
-    loggedIn: state.loggedIn
+    loggedIn: state.loggedIn,
+    animalsDetails: state.animalsDetails
   };
 };
 
@@ -75412,25 +75649,29 @@ let SignUp = Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])()(Uncon
 /*!**************************!*\
   !*** ./src/userForm.jsx ***!
   \**************************/
-/*! exports provided: UserForm, default */
+/*! exports provided: UnconnectedUserForm, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UserForm", function() { return UserForm; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UnconnectedUserForm", function() { return UnconnectedUserForm; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _formAnimalDetailsOne_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./formAnimalDetailsOne.jsx */ "./src/formAnimalDetailsOne.jsx");
-/* harmony import */ var _formAnimalDetailsTwo_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./formAnimalDetailsTwo.jsx */ "./src/formAnimalDetailsTwo.jsx");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _formAnimalDetailsOne_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./formAnimalDetailsOne.jsx */ "./src/formAnimalDetailsOne.jsx");
+/* harmony import */ var _formAnimalDetailsTwo_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./formAnimalDetailsTwo.jsx */ "./src/formAnimalDetailsTwo.jsx");
+/* harmony import */ var _formAnimalDetailsEvent_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./formAnimalDetailsEvent.jsx */ "./src/formAnimalDetailsEvent.jsx");
+/* harmony import */ var _formAnimalPicture_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./formAnimalPicture.jsx */ "./src/formAnimalPicture.jsx");
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
- // import FormAnimalDetailsEvent from "./FormUserDetails";
-// import FormAnimalPicture from "./FormUserDetails";
-// import Success from "./Success";
 
-class UserForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+
+
+ // import Success from "./Success";
+
+class UnconnectedUserForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   constructor(...args) {
     super(...args);
 
@@ -75450,6 +75691,19 @@ class UserForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       const {
         step
       } = this.state;
+      this.props.dispatch({
+        type: "animalDetails",
+        payload: {
+          animalType: this.state.animalType,
+          animalName: this.state.animalName,
+          animalRace: this.state.animalRace,
+          animalAge: this.state.animalAge,
+          animalGender: this.state.animalGender,
+          animalDescription: this.state.animalDescription,
+          animalEvent: this.state.animalEvent,
+          animalImage: this.state.animalImage
+        }
+      });
       this.setState({
         step: step + 1
       });
@@ -75473,7 +75727,6 @@ class UserForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   }
 
   render() {
-    console.log("test hello");
     const {
       step
     } = this.state;
@@ -75497,45 +75750,47 @@ class UserForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       animalDescription,
       animalEvent
     };
-    console.log("test hola");
 
     switch (step) {
       case 1:
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_formAnimalDetailsOne_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_formAnimalDetailsOne_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
           nextStep: this.nextStep,
           handleChange: this.handleChange,
           values: values
         });
 
       case 2:
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_formAnimalDetailsTwo_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        console.log("state after first form", this.state);
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_formAnimalDetailsTwo_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
           nextStep: this.nextStep,
           prevStep: this.prevStep,
           handleChange: this.handleChange,
           values: values
         });
-      //   case 3:
-      //     return (
-      //       <FormAnimalDetailsEvent
-      //         nextStep={this.nextStep}
-      //         prevStep={this.prevStep}
-      //         values={values}
-      //       />
-      //     );
-      //   case 4:
-      //     return (
-      //       <FormAnimalPicture
-      //         nextStep={this.nextStep}
-      //         prevStep={this.prevStep}
-      //         values={values}
-      //       />
-      //     );
+
+      case 3:
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_formAnimalDetailsEvent_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          nextStep: this.nextStep,
+          prevStep: this.prevStep,
+          handleChange: this.handleChange,
+          values: values
+        });
+
+      case 4:
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_formAnimalPicture_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          nextStep: this.nextStep,
+          prevStep: this.prevStep,
+          handleChange: this.handleChange,
+          values: values,
+          handleSubmit: this.props.handleSubmit
+        });
       //   case 5:
       //     return <Success />;
     }
   }
 
 }
+let UserForm = Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])()(UnconnectedUserForm);
 /* harmony default export */ __webpack_exports__["default"] = (UserForm);
 
 /***/ })

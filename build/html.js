@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyDurZQBXjtSzKeieXwtFeGe-jhZu-HEGQU&libraries=places\"></script>\n    <meta charset=\"utf-8\" />\n    <title>Fullstack dev!</title>\n  </head>\n\n  <body>\n    <div id=\"root\"></div>\n  </body>\n</html>\n";
+module.exports = "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyDurZQBXjtSzKeieXwtFeGe-jhZu-HEGQU&libraries=places\"></script>\r\n    <meta charset=\"utf-8\" />\r\n    <title>Fullstack dev!</title>\r\n  </head>\r\n\r\n  <body>\r\n    <div id=\"root\"></div>\r\n  </body>\r\n</html>\r\n";
 
 /***/ })
 

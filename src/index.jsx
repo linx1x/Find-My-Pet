@@ -23,6 +23,10 @@ let reducer = (state, action) => {
     console.log("address information fetched");
     return { ...state, address: action.address };
   }
+  if (action.type === "animalDetails") {
+    console.log("animal image uploaded");
+    return { ...state, animalsDetails: action.payload };
+  }
   return state;
 };
 const store = createStore(
@@ -31,7 +35,17 @@ const store = createStore(
     loggedIn: false,
     signedIn: false,
     markers: [],
-    itemId: ""
+    animalsDetails: {
+      animalId: "",
+      animalType: "",
+      animalName: "",
+      animalRace: "",
+      animalAge: "",
+      animalGender: "",
+      animalImage: [],
+      animalDescription: "",
+      animalEvent: ""
+    }
   },
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );

@@ -1,13 +1,15 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
 import FormAnimalDetailsOne from "./formAnimalDetailsOne.jsx";
 import FormAnimalDetailsTwo from "./formAnimalDetailsTwo.jsx";
-// import FormAnimalDetailsEvent from "./FormUserDetails";
-// import FormAnimalPicture from "./FormUserDetails";
+import FormAnimalDetailsEvent from "./formAnimalDetailsEvent.jsx";
+import FormAnimalPicture from "./formAnimalPicture.jsx";
 // import Success from "./Success";
 
-export class UserForm extends Component {
+export class UnconnectedUserForm extends Component {
   state = {
     step: 1,
+
     animalType: "",
     animalName: "",
     animalRace: "",
@@ -21,6 +23,19 @@ export class UserForm extends Component {
   // Proceed to next step
   nextStep = () => {
     const { step } = this.state;
+    this.props.dispatch({
+      type: "animalDetails",
+      payload: {
+        animalType: this.state.animalType,
+        animalName: this.state.animalName,
+        animalRace: this.state.animalRace,
+        animalAge: this.state.animalAge,
+        animalGender: this.state.animalGender,
+        animalDescription: this.state.animalDescription,
+        animalEvent: this.state.animalEvent,
+        animalImage: this.state.animalImage
+      }
+    });
     this.setState({
       step: step + 1
     });
@@ -39,9 +54,7 @@ export class UserForm extends Component {
   handleChange = input => e => {
     this.setState({ [input]: e.target.value });
   };
-
   render() {
-    console.log("test hello");
     const { step } = this.state;
     const {
       animalType,
@@ -63,7 +76,6 @@ export class UserForm extends Component {
       animalDescription,
       animalEvent
     };
-    console.log("test hola");
     switch (step) {
       case 1:
         return (
@@ -73,7 +85,9 @@ export class UserForm extends Component {
             values={values}
           />
         );
+
       case 2:
+        console.log("state after first form", this.state);
         return (
           <FormAnimalDetailsTwo
             nextStep={this.nextStep}
@@ -82,26 +96,29 @@ export class UserForm extends Component {
             values={values}
           />
         );
-      //   case 3:
-      //     return (
-      //       <FormAnimalDetailsEvent
-      //         nextStep={this.nextStep}
-      //         prevStep={this.prevStep}
-      //         values={values}
-      //       />
-      //     );
-      //   case 4:
-      //     return (
-      //       <FormAnimalPicture
-      //         nextStep={this.nextStep}
-      //         prevStep={this.prevStep}
-      //         values={values}
-      //       />
-      //     );
+      case 3:
+        return (
+          <FormAnimalDetailsEvent
+            nextStep={this.nextStep}
+            prevStep={this.prevStep}
+            handleChange={this.handleChange}
+            values={values}
+          />
+        );
+      case 4:
+        return (
+          <FormAnimalPicture
+            nextStep={this.nextStep}
+            prevStep={this.prevStep}
+            handleChange={this.handleChange}
+            values={values}
+            handleSubmit={this.props.handleSubmit}
+          />
+        );
       //   case 5:
       //     return <Success />;
     }
   }
 }
-
+let UserForm = connect()(UnconnectedUserForm);
 export default UserForm;

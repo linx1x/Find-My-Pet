@@ -53,35 +53,39 @@ class unconnectedMap extends Component {
     // console.log("Selected: ", item);
   };
   clickHandler = (event, viewport) => {
-    console.log("event: ", event, viewport);
+    if (this.state.showPopup === true) {
+      return;
+    } else {
+      console.log("event: ", event, viewport);
 
-    let lnglat = event.lngLat;
-    console.log("lnglat", lnglat);
-    let lng = lnglat[0];
-    console.log("lng", lng);
-    let lat = lnglat[1];
-    console.log("lat", lat);
-    // console.log("lnglatTest", lnglat);
-    let newViewport = {
-      height: this.state.viewport.height,
-      width: this.state.viewport.width,
-      zoom: 15,
-      latitude: lnglat[1],
-      longitude: lnglat[0]
-    };
-    let newPopup = {
-      latitude: lat,
-      longitude: lng
-    };
+      let lnglat = event.lngLat;
+      console.log("lnglat", lnglat);
+      let lng = lnglat[0];
+      console.log("lng", lng);
+      let lat = lnglat[1];
+      console.log("lat", lat);
+      // console.log("lnglatTest", lnglat);
+      let newViewport = {
+        height: this.state.viewport.height,
+        width: this.state.viewport.width,
+        zoom: 15,
+        latitude: lnglat[1],
+        longitude: lnglat[0]
+      };
+      let newPopup = {
+        latitude: lat,
+        longitude: lng
+      };
 
-    console.log("state", this.state);
-    this.setState({
-      viewport: newViewport,
-      popup: newPopup,
+      console.log("state", this.state);
+      this.setState({
+        viewport: newViewport,
+        popup: newPopup,
 
-      showPopup: true
-    });
-    console.log("state", this.state);
+        showPopup: true
+      });
+      console.log("state", this.state);
+    }
   };
   displayLostForm = () => {
     this.setState({
@@ -142,8 +146,7 @@ class unconnectedMap extends Component {
   handleSubmit = event => {
     event.preventDefault();
     let testlat = this.state.popup.latitude;
-    let testlng = this.state.popup.latitude;
-    this.state.popup.longitude;
+    let testlng = this.state.popup.longitude;
 
     let newMarker = {
       latitude: testlat,
@@ -155,14 +158,15 @@ class unconnectedMap extends Component {
       displayMarker: true
     });
     let formData = new FormData();
-    formData.append("type", this.state.formInput.animalType);
-    formData.append("name", this.state.formInput.animalName);
-    formData.append("race", this.state.formInput.animalRace);
-    formData.append("age", this.state.formInput.animalAge);
-    formData.append("gender", this.state.formInput.animalGender);
-    formData.append("event", this.state.formInput.animalEvent);
-    formData.append("description", this.state.formInput.animalDescription);
-    formData.append("animalImage", this.state.formInput.AnimalImage);
+    formData.append("type", this.props.animalsDetails.animalType);
+    console.log("animalType", this.props.animalsDetails.animalType);
+    formData.append("name", this.props.animalsDetails.animalName);
+    formData.append("race", this.props.animalsDetails.animalRace);
+    formData.append("age", this.props.animalsDetails.animalAge);
+    formData.append("gender", this.props.animalsDetails.animalGender);
+    formData.append("event", this.props.animalsDetails.animalEvent);
+    formData.append("description", this.props.animalsDetails.animalDescription);
+    formData.append("animalImage", this.props.animalsDetails.AnimalImage);
     fetch("/new-pet", {
       method: "POST",
       body: formData
@@ -205,7 +209,7 @@ class unconnectedMap extends Component {
             mapStyle="mapbox://styles/vincentlinx/cjzsriwql096b1climsp972oc"
             mapboxApiAccessToken="pk.eyJ1IjoidmluY2VudGxpbngiLCJhIjoiY2p6c2x6Mm5hMHg5bzNkbjR2d2dvYnhpeiJ9.agg51yZYDvNIHBwXSPcBrQ"
             onViewportChange={viewport => this.setState({ viewport })}
-            ondblclick={this.clickHandler}
+            onClick={this.clickHandler}
             className="theMap"
           >
             <div className="navigationControl">
@@ -230,6 +234,8 @@ class unconnectedMap extends Component {
                   longitude={this.state.popup.longitude}
                   closeButton={true}
                   closeOnClick={false}
+                  captureClick={true}
+                  dynamicPosition={true}
                   onClose={() =>
                     this.setState({
                       showPopup: false,
@@ -240,7 +246,11 @@ class unconnectedMap extends Component {
                   anchor="top"
                 >
                   {/* Space to enter the form for missing animal */}
-                  <UserForm />
+                  <UserForm
+                    latitude={this.state.popup.latitude}
+                    longitude={this.state.popup.longitude}
+                    handleSubmit={this.handleSubmit}
+                  />
                 </Popup>
               </div>
             ) : null}
@@ -255,7 +265,7 @@ class unconnectedMap extends Component {
 }
 
 let mapStatetoProps = state => {
-  return { loggedIn: state.loggedIn };
+  return { loggedIn: state.loggedIn, animalsDetails: state.animalsDetails };
 };
 let Map = connect(mapStatetoProps)(unconnectedMap);
 export default Map;

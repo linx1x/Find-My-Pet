@@ -17,15 +17,13 @@ export class FormAnimalDetailsOne extends Component {
 
   render() {
     const { values, handleChange } = this.props;
-
-    console.log("test world");
     return (
       <MuiThemeProvider>
         <React.Fragment>
           <AppBar title="Enter Animal Details" />
           <div>
             <RadioGroup
-              aria-label="typ"
+              aria-label="type"
               name="type"
               //   className={classes.group}
               //   value={value}
@@ -35,13 +33,17 @@ export class FormAnimalDetailsOne extends Component {
                 value="cat"
                 control={<Radio />}
                 label="cat"
-                onChange={handleChange("animalType")}
+                onChange={
+                  (handleChange("animalType"), console.log("values", values))
+                }
               />
               <FormControlLabel
                 value="dog"
                 control={<Radio />}
                 label="dog"
-                onChange={handleChange("animalType")}
+                onChange={
+                  (handleChange("animalType"), console.log("values", values))
+                }
               />
             </RadioGroup>
           </div>
@@ -49,14 +51,14 @@ export class FormAnimalDetailsOne extends Component {
           <TextField
             hintText="Animal Name"
             floatingLabelText="Name"
-            onChange={handleChange("animalName")}
+            onChange={handleChange("animalName", console.log("values", values))}
             defaultValue={values.animalName}
           />
           <br />
           <TextField
             hintText="Animal Race"
             floatingLabelText="Race"
-            onChange={handleChange("animalRace")}
+            onChange={handleChange("animalRace", console.log("values", values))}
             defaultValue={values.animalRace}
           />
           <br />
