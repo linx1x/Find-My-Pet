@@ -1,0 +1,32 @@
+.MainDiv {
+  display: flex;
+  flex-direction: column;
+}
+.FormDisplayArea {
+  color: white;
+  font-size: 1.6em;
+}
+.MapArea {
+  background: black;
+  position: relative;
+}
+.react-geocoder-results {
+  color: black;
+  background: white;
+}
+.navigationControl {
+  position: absolute;
+}
+.searchbar {
+  border: 1px solid black;
+}
+.theMap {
+  z-index: 0;
+}
+.popup {
+  z-index: 1;
+}
+.GeocoderDiv {
+  position: absolute;
+  top
+}
