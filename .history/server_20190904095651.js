@@ -145,9 +145,7 @@ app.post("/new-pet", upload.single("itemImage"), (req, res) => {
     age: age,
     gender: gender,
     description: description,
-    event: event,
-    longitude: longitude,
-    latitude: latitude
+    event: event
   });
   res.send(
     JSON.stringify({

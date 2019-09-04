@@ -36,15 +36,15 @@ class unconnectedMap extends Component {
         latitude: 45.451625,
         longitude: -73.575608,
         zoom: 12
-      }
-      // animalType: "",
-      // animalName: "",
-      // animalRace: "",
-      // animalAge: "",
-      // animalGender: "",
-      // animalImage: [],
-      // animalDescription: "",
-      // animalEvent: ""
+      },
+      animalType: "",
+      animalName: "",
+      animalRace: "",
+      animalAge: "",
+      animalGender: "",
+      animalImage: [],
+      animalDescription: "",
+      animalEvent: ""
     };
   }
 
@@ -145,12 +145,12 @@ class unconnectedMap extends Component {
 
   handleSubmit = event => {
     event.preventDefault();
-    let markerlat = this.state.popup.latitude;
-    let markerlng = this.state.popup.longitude;
+    let testlat = this.state.popup.latitude;
+    let testlng = this.state.popup.longitude;
 
     let newMarker = {
-      latitude: markerlat,
-      longitude: markerlng
+      latitude: testlat,
+      longitude: testlng
     };
     console.log("newMarker", newMarker);
     this.setState({
@@ -167,8 +167,8 @@ class unconnectedMap extends Component {
     formData.append("event", this.props.animalsDetails.animalEvent);
     formData.append("description", this.props.animalsDetails.animalDescription);
     formData.append("animalImage", this.props.animalsDetails.AnimalImage);
-    formData.append("latitude", this.state.popup.latitude);
-    formData.append("longitude", this.state.popup.longitude);
+    formData.append("animalLatitude", this.state.popup.latitude)
+    formData.append("animalLongitude", this.state.popup.latitude)
     fetch("/new-pet", {
       method: "POST",
       body: formData

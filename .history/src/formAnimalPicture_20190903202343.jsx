@@ -41,7 +41,7 @@ export class FormAnimalPicture extends Component {
             </div>
           </div>
           <RaisedButton
-            label="Submit"
+            label=""
             primary={true}
             style={styles.button}
             onClick={handleSubmit}

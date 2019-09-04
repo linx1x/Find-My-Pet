@@ -131,8 +131,8 @@ app.post("/new-pet", upload.single("itemImage"), (req, res) => {
   let gender = req.body.gender;
   let event = req.body.event;
   let description = req.body.description;
-  let latitude = req.body.latitude;
-  let longitude = req.body.longitude;
+  let latitude = req.body.animalLatitude;
+  let longitude = req.body.animalLongitude;
   if (req.file !== undefined) {
     filePath = "/uploads/" + req.file.filename;
   }

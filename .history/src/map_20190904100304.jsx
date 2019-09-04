@@ -125,7 +125,7 @@ class unconnectedMap extends Component {
         height: this.state.viewport.height,
         width: this.state.viewport.width,
         zoom: 15,
-        latitude: body.results[0].geometry.location.lat,
+        latitude: body.results[0].ltn,
         longitude: body.results[0].geometry.location.lng
       };
       this.setState({ viewport: newViewport });

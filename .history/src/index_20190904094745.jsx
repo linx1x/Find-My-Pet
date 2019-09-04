@@ -44,9 +44,8 @@ const store = createStore(
       animalGender: "",
       animalImage: [],
       animalDescription: "",
-      animalEvent: "",
-      animalLatitude: "",
-      animalLongitude: ""
+      animalEvent: ""
+      animal
     }
   },
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()

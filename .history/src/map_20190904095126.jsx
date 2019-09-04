@@ -167,8 +167,8 @@ class unconnectedMap extends Component {
     formData.append("event", this.props.animalsDetails.animalEvent);
     formData.append("description", this.props.animalsDetails.animalDescription);
     formData.append("animalImage", this.props.animalsDetails.AnimalImage);
-    formData.append("latitude", this.state.popup.latitude);
-    formData.append("longitude", this.state.popup.longitude);
+    formData.append("animalLatitude", this.state.popup.latitude);
+    formData.append("animalLongitude", this.state.popup.longitude);
     fetch("/new-pet", {
       method: "POST",
       body: formData
