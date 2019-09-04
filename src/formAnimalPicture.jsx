@@ -24,7 +24,11 @@ export class FormAnimalPicture extends Component {
           <div className="container">
             <div className="row">
               <div class="col-md-6">
-                <form method="post" action="#" id="#">
+                <form
+                  method="POST"
+                  action="/uploads"
+                  enctype="multipart/form-data"
+                >
                   <div class="form-group files color">
                     <label className="form-label">
                       Upload pictures of your pet
@@ -32,7 +36,6 @@ export class FormAnimalPicture extends Component {
                     <input
                       type="file"
                       className="form-control"
-                      multiple=""
                       onChange={handleChange("animalImage")}
                     />
                   </div>

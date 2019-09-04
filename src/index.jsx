@@ -27,6 +27,9 @@ let reducer = (state, action) => {
     console.log("animal image uploaded");
     return { ...state, animalsDetails: action.payload };
   }
+  if (action.type === "set-animals") {
+    return { ...state, animals: action.animals };
+  }
   return state;
 };
 const store = createStore(
@@ -47,7 +50,8 @@ const store = createStore(
       animalEvent: "",
       animalLatitude: "",
       animalLongitude: ""
-    }
+    },
+    animals: []
   },
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );

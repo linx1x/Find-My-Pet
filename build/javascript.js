@@ -13518,7 +13518,7 @@ module.exports = exports['default'];
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".App {\n  height: 100vh;\n  display: flex;\n  color: white;\n}\n\n.App__Aside {\n  width: 50%;\n  background-color: white;\n  background: url(\"/images/stores.jpg\") no-repeat center center;\n  z-index: 105;\n  background-size: cover;\n}\n\n.App__Form {\n  width: 50%;\n  text-align-last: center;\n  height: 100%;\n  background-color: #101010;\n  padding: 25px 40px;\n  overflow: auto;\n  z-index: 105;\n}\n.FormCenter {\n  margin-bottom: 100px;\n}\n.or {\n  color: white;\n}\n\n.FormTitle {\n  padding-top: 20%;\n  color: black;\n  font-weight: 300;\n  margin-bottom: 50px;\n}\n\n.FormTitle__Link {\n  color: white;\n  text-decoration: none;\n  display: inline-block;\n  font-size: 1.7em;\n  margin: 0 10px;\n  padding-bottom: 5px;\n}\n\n.FormTitle__Link:first-child {\n  margin-left: 0;\n}\n\n.FormTitle__Link--Active {\n  color: white;\n  border-bottom: 1px solid white;\n  margin-bottom: 40px;\n}\n\n.FormField {\n  margin-bottom: 40px;\n}\n\n.FormField__Label {\n  display: block;\n  text-transform: uppercase;\n  font-size: 0.9em;\n  color: white;\n}\n\n.FormField__Input:-webkit-autofill {\n  -webkit-text-fill-color: black !important;\n  -webkit-box-shadow: 0 0 0px 1000px white inset;\n  box-shadow: 0 0 0px 1000px white inset;\n  width: 50%;\n  background-color: white;\n  font-size: 0.9em;\n  border: none;\n  outline: none;\n  font-size: 1em;\n  font-weight: 300;\n  padding-bottom: 10px;\n  margin-top: 10px;\n}\n.FormField__Input {\n  text-align: left;\n  padding-top: 10px;\n  width: 50%;\n  background-color: white;\n  color: black;\n  outline: none;\n  font-size: 1em;\n  font-weight: 300;\n  padding-bottom: 10px;\n  padding-left: 15px;\n  margin-top: 10px;\n  font-family: \"roboto\", sans-serif;\n}\n\n.FormField__Input::placeholder {\n  color: #616e7f;\n}\n\n.FormField__Button {\n  background-color: #101010;\n  color: white;\n  border: none;\n  outline: none;\n  padding-right: 25px;\n  padding-left: 25px;\n  padding-top: 15px;\n  padding-bottom: 15px;\n  font-size: 22px;\n  font-weight: 400;\n  min-inline-size: -webkit-fill-available;\n}\n.FormField__Button:hover {\n  cursor: pointer;\n}\n.FormField__Link {\n  color: #66707d;\n  text-decoration: none;\n  display: inline-block;\n  border-bottom: 1.5px solid #225e62;\n  padding-bottom: 5px;\n}\n\n.FormField__CheckboxLabel {\n  color: #646f7d;\n  font-size: 0.9em;\n}\n\n.FormField__Checkbox {\n  position: relative;\n  top: 1.5px;\n}\n\n.FormField__TermsLink {\n  color: white;\n  border-bottom: 1px solid #199087;\n  text-decoration: none;\n  display: inline-block;\n  padding-bottom: 2px;\n  margin-left: 5px;\n}\n", ""]);
+exports.push([module.i, ".App {\r\n  height: 100vh;\r\n  display: flex;\r\n  color: white;\r\n}\r\n\r\n.App__Aside {\r\n  width: 50%;\r\n  background-color: white;\r\n  background: url(\"/images/stores.jpg\") no-repeat center center;\r\n  z-index: 105;\r\n  background-size: cover;\r\n}\r\n\r\n.App__Form {\r\n  width: 50%;\r\n  text-align-last: center;\r\n  height: 100%;\r\n  background-color: #101010;\r\n  padding: 25px 40px;\r\n  overflow: auto;\r\n  z-index: 105;\r\n}\r\n.FormCenter {\r\n  margin-bottom: 100px;\r\n}\r\n.or {\r\n  color: white;\r\n}\r\n\r\n.FormTitle {\r\n  padding-top: 20%;\r\n  color: black;\r\n  font-weight: 300;\r\n  margin-bottom: 50px;\r\n}\r\n\r\n.FormTitle__Link {\r\n  color: white;\r\n  text-decoration: none;\r\n  display: inline-block;\r\n  font-size: 1.7em;\r\n  margin: 0 10px;\r\n  padding-bottom: 5px;\r\n}\r\n\r\n.FormTitle__Link:first-child {\r\n  margin-left: 0;\r\n}\r\n\r\n.FormTitle__Link--Active {\r\n  color: white;\r\n  border-bottom: 1px solid white;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.FormField {\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.FormField__Label {\r\n  display: block;\r\n  text-transform: uppercase;\r\n  font-size: 0.9em;\r\n  color: white;\r\n}\r\n\r\n.FormField__Input:-webkit-autofill {\r\n  -webkit-text-fill-color: black !important;\r\n  -webkit-box-shadow: 0 0 0px 1000px white inset;\r\n  box-shadow: 0 0 0px 1000px white inset;\r\n  width: 50%;\r\n  background-color: white;\r\n  font-size: 0.9em;\r\n  border: none;\r\n  outline: none;\r\n  font-size: 1em;\r\n  font-weight: 300;\r\n  padding-bottom: 10px;\r\n  margin-top: 10px;\r\n}\r\n.FormField__Input {\r\n  text-align: left;\r\n  padding-top: 10px;\r\n  width: 50%;\r\n  background-color: white;\r\n  color: black;\r\n  outline: none;\r\n  font-size: 1em;\r\n  font-weight: 300;\r\n  padding-bottom: 10px;\r\n  padding-left: 15px;\r\n  margin-top: 10px;\r\n  font-family: \"roboto\", sans-serif;\r\n}\r\n\r\n.FormField__Input::placeholder {\r\n  color: #616e7f;\r\n}\r\n\r\n.FormField__Button {\r\n  background-color: #101010;\r\n  color: white;\r\n  border: none;\r\n  outline: none;\r\n  padding-right: 25px;\r\n  padding-left: 25px;\r\n  padding-top: 15px;\r\n  padding-bottom: 15px;\r\n  font-size: 22px;\r\n  font-weight: 400;\r\n  min-inline-size: -webkit-fill-available;\r\n}\r\n.FormField__Button:hover {\r\n  cursor: pointer;\r\n}\r\n.FormField__Link {\r\n  color: #66707d;\r\n  text-decoration: none;\r\n  display: inline-block;\r\n  border-bottom: 1.5px solid #225e62;\r\n  padding-bottom: 5px;\r\n}\r\n\r\n.FormField__CheckboxLabel {\r\n  color: #646f7d;\r\n  font-size: 0.9em;\r\n}\r\n\r\n.FormField__Checkbox {\r\n  position: relative;\r\n  top: 1.5px;\r\n}\r\n\r\n.FormField__TermsLink {\r\n  color: white;\r\n  border-bottom: 1px solid #199087;\r\n  text-decoration: none;\r\n  display: inline-block;\r\n  padding-bottom: 2px;\r\n  margin-left: 5px;\r\n}\r\n", ""]);
 
 
 
@@ -13548,7 +13548,7 @@ exports.push([module.i, ".files input {\r\n  outline: 2px dashed #92b0b3;\r\n  o
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "body {\n  background-color: white;\n  margin: 0;\n}\n\n.overlay {\n  z-index: 50;\n  position: fixed;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.popup {\n  z-index: 100;\n  position: fixed;\n  top: 200px;\n  left: 200px;\n  right: 200px;\n  background-color: white;\n}\n", ""]);
+exports.push([module.i, "body {\r\n  background-color: white;\r\n  margin: 0;\r\n}\r\n\r\n.overlay {\r\n  z-index: 50;\r\n  position: fixed;\r\n  left: 0;\r\n  right: 0;\r\n  top: 0;\r\n  bottom: 0;\r\n  background-color: rgba(0, 0, 0, 0.5);\r\n}\r\n\r\n.popup {\r\n  z-index: 100;\r\n  position: fixed;\r\n  top: 200px;\r\n  left: 200px;\r\n  right: 200px;\r\n  background-color: white;\r\n}\r\n", ""]);
 
 
 
@@ -65698,7 +65698,7 @@ function warning(message) {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -74738,9 +74738,9 @@ class FormAnimalPicture extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] 
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       class: "col-md-6"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-      method: "post",
-      action: "#",
-      id: "#"
+      method: "POST",
+      action: "/uploads",
+      enctype: "multipart/form-data"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       class: "form-group files color"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
@@ -74748,7 +74748,6 @@ class FormAnimalPicture extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] 
     }, "Upload pictures of your pet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
       type: "file",
       className: "form-control",
-      multiple: "",
       onChange: handleChange("animalImage")
     })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_RaisedButton__WEBPACK_IMPORTED_MODULE_4___default.a, {
       label: "Submit",
@@ -74838,6 +74837,12 @@ let reducer = (state, action) => {
     };
   }
 
+  if (action.type === "set-animals") {
+    return { ...state,
+      animals: action.animals
+    };
+  }
+
   return state;
 };
 
@@ -74857,7 +74862,8 @@ const store = Object(redux__WEBPACK_IMPORTED_MODULE_4__["createStore"])(reducer,
     animalEvent: "",
     animalLatitude: "",
     animalLongitude: ""
-  }
+  },
+  animals: []
 }, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 react_dom__WEBPACK_IMPORTED_MODULE_0___default.a.render(react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_3__["Provider"], {
   store: store
@@ -75160,6 +75166,23 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       }
     });
 
+    _defineProperty(this, "componentDidMount", () => {
+      let updateItems = async () => {
+        // get all items from the server
+        let response = await fetch("/animals");
+        let responseBody = await response.text(); //   console.log("responseBody", responseBody);
+
+        let parsed = JSON.parse(responseBody);
+        console.log("parsed", parsed);
+        this.props.dispatch({
+          type: "set-animals",
+          animals: parsed
+        });
+      };
+
+      setInterval(updateItems, 500);
+    });
+
     _defineProperty(this, "displayLostForm", () => {
       this.setState({ ...this.state,
         displayLostForm: !this.state.displayLostForm
@@ -75218,6 +75241,12 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       });
     });
 
+    _defineProperty(this, "animalPopup", () => {
+      this.setState({
+        showPopup: true
+      });
+    });
+
     _defineProperty(this, "handleSubmit", event => {
       event.preventDefault();
       let markerlat = this.state.popup.latitude;
@@ -75240,7 +75269,8 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       formData.append("gender", this.props.animalsDetails.animalGender);
       formData.append("event", this.props.animalsDetails.animalEvent);
       formData.append("description", this.props.animalsDetails.animalDescription);
-      formData.append("animalImage", this.props.animalsDetails.AnimalImage);
+      formData.append("image", this.props.animalsDetails.animalImage);
+      console.log("image", this.props.animalsDetails.animalImage);
       formData.append("latitude", this.state.popup.latitude);
       formData.append("longitude", this.state.popup.longitude);
       fetch("/new-pet", {
@@ -75256,7 +75286,7 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     });
 
     this.state = {
-      displayMarker: false,
+      displayMarker: true,
       showPopup: false,
       popup: {
         latitude: "",
@@ -75285,6 +75315,18 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   }
 
   render() {
+    let animalsInfos = this.props.animals;
+    let allMarkers = animalsInfos.map(animal => {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_map_gl__WEBPACK_IMPORTED_MODULE_5__["Marker"], {
+        longitude: parseFloat(animal.longitude),
+        latitude: parseFloat(animal.latitude)
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        onClick: this.animalPopup,
+        src: "./images/pawIcon.png",
+        className: "MarkerIcon",
+        width: "30px"
+      }));
+    });
     console.log(this.state);
     const {
       viewport
@@ -75321,14 +75363,7 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "theMap"
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "navigationControl"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_map_gl__WEBPACK_IMPORTED_MODULE_5__["NavigationControl"], null)), this.state.displayMarker ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_map_gl__WEBPACK_IMPORTED_MODULE_5__["Marker"], {
-      latitude: this.state.popup.latitude,
-      longitude: this.state.popup.longitude
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "/pawIcon.png",
-      className: "MarkerIcon",
-      width: "30px"
-    })) : null, this.state.showPopup ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_map_gl__WEBPACK_IMPORTED_MODULE_5__["NavigationControl"], null)), allMarkers, this.state.showPopup ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "popupdiv"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_map_gl__WEBPACK_IMPORTED_MODULE_5__["Popup"], {
       className: "popup",
@@ -75358,7 +75393,8 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 let mapStatetoProps = state => {
   return {
     loggedIn: state.loggedIn,
-    animalsDetails: state.animalsDetails
+    animalsDetails: state.animalsDetails,
+    animals: state.animals
   };
 };
 
@@ -75708,10 +75744,13 @@ class UnconnectedUserForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"
           animalImage: this.state.animalImage
         }
       });
-      this.setState({
-        step: step + 1
-      });
-      console.log(this.state);
+
+      if (this.state.step < 4) {
+        this.setState({
+          step: step + 1
+        });
+        console.log(this.state);
+      }
     });
 
     _defineProperty(this, "prevStep", () => {
@@ -75724,9 +75763,19 @@ class UnconnectedUserForm extends react__WEBPACK_IMPORTED_MODULE_0__["Component"
     });
 
     _defineProperty(this, "handleChange", input => e => {
-      this.setState({
-        [input]: e.target.value
-      });
+      if (input === "animalImage") {
+        this.setState({
+          [input]: e.target.files[0]
+        }, () => {
+          this.nextStep();
+        });
+        console.log("image", e.target.files[0]);
+      } else {
+        this.setState({
+          [input]: e.target.value
+        });
+        console.log("value", e.target.value);
+      }
     });
   }
 

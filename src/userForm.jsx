@@ -36,12 +36,13 @@ export class UnconnectedUserForm extends Component {
         animalImage: this.state.animalImage
       }
     });
-    this.setState({
-      step: step + 1
-    });
-    console.log(this.state);
+    if (this.state.step < 4) {
+      this.setState({
+        step: step + 1
+      });
+      console.log(this.state);
+    }
   };
-
   // Go back to prev step
   prevStep = () => {
     const { step } = this.state;
@@ -52,7 +53,16 @@ export class UnconnectedUserForm extends Component {
 
   // Handle fields change
   handleChange = input => e => {
-    this.setState({ [input]: e.target.value });
+    if (input === "animalImage") {
+      this.setState({ [input]: e.target.files[0] }, () => {
+        this.nextStep();
+      });
+
+      console.log("image", e.target.files[0]);
+    } else {
+      this.setState({ [input]: e.target.value });
+      console.log("value", e.target.value);
+    }
   };
   render() {
     const { step } = this.state;

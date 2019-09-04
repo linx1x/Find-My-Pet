@@ -20,7 +20,7 @@ class unconnectedMap extends Component {
     super(props);
 
     this.state = {
-      displayMarker: false,
+      displayMarker: true,
       showPopup: false,
       popup: {
         latitude: "",
@@ -87,6 +87,18 @@ class unconnectedMap extends Component {
       console.log("state", this.state);
     }
   };
+  componentDidMount = () => {
+    let updateItems = async () => {
+      // get all items from the server
+      let response = await fetch("/animals");
+      let responseBody = await response.text();
+      //   console.log("responseBody", responseBody);
+      let parsed = JSON.parse(responseBody);
+      console.log("parsed", parsed);
+      this.props.dispatch({ type: "set-animals", animals: parsed });
+    };
+    setInterval(updateItems, 500);
+  };
   displayLostForm = () => {
     this.setState({
       ...this.state,
@@ -142,6 +154,9 @@ class unconnectedMap extends Component {
     console.log("forminput", this.state);
     this.setState({ [input]: event.target.value });
   };
+  animalPopup = () => {
+    this.setState({ showPopup: true });
+  };
 
   handleSubmit = event => {
     event.preventDefault();
@@ -166,13 +181,15 @@ class unconnectedMap extends Component {
     formData.append("gender", this.props.animalsDetails.animalGender);
     formData.append("event", this.props.animalsDetails.animalEvent);
     formData.append("description", this.props.animalsDetails.animalDescription);
-    formData.append("animalImage", this.props.animalsDetails.AnimalImage);
+    formData.append("image", this.props.animalsDetails.animalImage);
+    console.log("image", this.props.animalsDetails.animalImage);
     formData.append("latitude", this.state.popup.latitude);
     formData.append("longitude", this.state.popup.longitude);
     fetch("/new-pet", {
       method: "POST",
       body: formData
     });
+
     // .then(response => response.text())
     // .then(response => {
     //   let petId = JSON.parse(response);
@@ -183,6 +200,23 @@ class unconnectedMap extends Component {
   };
 
   render() {
+    let animalsInfos = this.props.animals;
+    let allMarkers = animalsInfos.map(animal => {
+      return (
+        <Marker
+          longitude={parseFloat(animal.longitude)}
+          latitude={parseFloat(animal.latitude)}
+        >
+          <img
+            onClick={this.animalPopup}
+            src="./images/pawIcon.png"
+            className="MarkerIcon"
+            width="30px"
+          />
+        </Marker>
+      );
+    });
+
     console.log(this.state);
     const { viewport } = this.state;
     // if (this.props.loggedIn) {
@@ -217,16 +251,8 @@ class unconnectedMap extends Component {
             <div className="navigationControl">
               <NavigationControl />
             </div>
+            {allMarkers}
             {/* This will be the place for the geolocation button */}
-            {this.state.displayMarker ? (
-              <Marker
-                latitude={this.state.popup.latitude}
-                longitude={this.state.popup.longitude}
-              >
-                <img src="/pawIcon.png" className="MarkerIcon" width="30px" />
-              </Marker>
-            ) : null}
-
             {/* Area for the popup class interaction when clicked on the map  */}
             {this.state.showPopup ? (
               <div className="popupdiv">
@@ -267,7 +293,11 @@ class unconnectedMap extends Component {
 }
 
 let mapStatetoProps = state => {
-  return { loggedIn: state.loggedIn, animalsDetails: state.animalsDetails };
+  return {
+    loggedIn: state.loggedIn,
+    animalsDetails: state.animalsDetails,
+    animals: state.animals
+  };
 };
 let Map = connect(mapStatetoProps)(unconnectedMap);
 export default Map;

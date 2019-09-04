@@ -26,8 +26,8 @@ app.use(cookieParser());
 let sessions = {};
 
 app.use("/", express.static("build")); // Needed for the HTML and JS files
-app.use("/", express.static("public")); // Needed for local assets
-app.use("/", express.static("images"));
+app.use("/uploads", express.static("uploads")); // Needed for local assets
+app.use("/images", express.static("images"));
 // Your endpoints go after this line
 // signup
 app.post("/signup", upload.none(), (req, res) => {
@@ -120,10 +120,11 @@ app.post("/logout", upload.none(), (req, res) => {
   console.log("sessions", sessions);
 });
 // new-pet
-app.post("/new-pet", upload.single("itemImage"), (req, res) => {
+app.post("/new-pet", upload.single("image"), (req, res) => {
   console.log("request to /new-pet body", req.body);
   console.log(req.file);
   let filePath;
+  console.log("filePath", filePath);
   let type = req.body.type;
   let name = req.body.name;
   let race = req.body.race;
@@ -154,6 +155,21 @@ app.post("/new-pet", upload.single("itemImage"), (req, res) => {
       success: true
     })
   );
+});
+app.get("/animals", (req, res) => {
+  // console.log("request to all animals");
+  dbo
+    .collection("animals")
+    .find({})
+    .toArray((err, animals) => {
+      if (err) {
+        console.log("error", err);
+        res.send("fail");
+        return;
+      }
+      // console.log("items", items);
+      res.send(JSON.stringify(animals));
+    });
 });
 
 // Your endpoints go before this line
