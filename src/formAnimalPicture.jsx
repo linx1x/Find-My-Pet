@@ -9,7 +9,6 @@ export class FormAnimalPicture extends Component {
     e.preventDefault();
     this.props.nextStep();
   };
-
   back = e => {
     e.preventDefault();
     this.props.prevStep();
@@ -24,11 +23,7 @@ export class FormAnimalPicture extends Component {
           <div className="container">
             <div className="row">
               <div class="col-md-6">
-                <form
-                  method="POST"
-                  action="/uploads"
-                  enctype="multipart/form-data"
-                >
+                <form>
                   <div class="form-group files color">
                     <label className="form-label">
                       Upload pictures of your pet

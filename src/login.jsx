@@ -84,7 +84,7 @@ class Unconnectedlogin extends Component {
                   <input
                     type="email"
                     id="email"
-                    className="FormFiseld__Input"
+                    className="FormField__Input"
                     placeholder="Your e-mail here"
                     name="email"
                     value={this.state.email}

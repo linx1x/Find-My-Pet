@@ -20,6 +20,7 @@ class unconnectedMap extends Component {
     super(props);
 
     this.state = {
+      searchMarker: false,
       displayMarker: true,
       showPopupForm: false,
       showPopupMarker: false,
@@ -33,7 +34,7 @@ class unconnectedMap extends Component {
       },
       viewport: {
         width: "90vw",
-        height: "96vh",
+        height: "88vh",
         latitude: 45.451625,
         longitude: -73.575608,
         zoom: 12
@@ -110,7 +111,6 @@ class unconnectedMap extends Component {
   };
   geocoderHandler = async event => {
     event.preventDefault();
-    // console.log("input", event.target.value);
     let str = event.target.value;
     let encodedUrl = str.replace(" ", "+");
     let response = await (await fetch(
@@ -121,7 +121,6 @@ class unconnectedMap extends Component {
     )).text();
     let body = JSON.parse(response);
     if (body.length != 0) {
-      console.log("body", body);
       this.state.address = body;
       let newViewport = {
         height: this.state.viewport.height,
@@ -130,7 +129,15 @@ class unconnectedMap extends Component {
         latitude: body.results[0].geometry.location.lat,
         longitude: body.results[0].geometry.location.lng
       };
-      this.setState({ viewport: newViewport });
+      let newMarkers = {
+        latitude: body.results[0].geometry.location.lat,
+        longitude: body.results[0].geometry.location.lng
+      };
+      this.setState({
+        viewport: newViewport,
+        searchMarker: true,
+        markers: newMarkers
+      });
     }
   };
 
@@ -138,27 +145,16 @@ class unconnectedMap extends Component {
     console.log("forminput", this.state);
     this.setState({ [input]: event.target.value });
   };
-  animalPopup = event => {
+  animalPopup = index => {
     event.preventDefault();
-    console.log("event when marker clicked", event);
-    this.setState({ showPopupMarker: true });
+    this.setState({ showPopupMarker: true, popupIndex: index });
   };
 
   handleSubmit = event => {
     event.preventDefault();
-    let markerlat = this.state.popup.latitude;
-    let markerlng = this.state.popup.longitude;
-
-    let newMarker = {
-      latitude: markerlat,
-      longitude: markerlng
-    };
-    console.log("newMarker", newMarker);
-    this.setState({
-      markers: newMarker,
-      showPopupForm: false
-    });
+    event.stopPropagation();
     let formData = new FormData();
+    formData.append("owner", this.props.email);
     formData.append("type", this.props.animalsDetails.animalType);
     console.log("animalType", this.props.animalsDetails.animalType);
     formData.append("name", this.props.animalsDetails.animalName);
@@ -175,32 +171,48 @@ class unconnectedMap extends Component {
       method: "POST",
       body: formData
     });
-
-    // .then(response => response.text())
-    // .then(response => {
-    //   let petId = JSON.parse(response);
-    //   this.setState({ petId: petId });
-    //   this.props.getItemId(petId);
-    //   // receives the itemID from the backend
-    // });
+    this.setState(
+      {
+        showPopupForm: false
+      },
+      () => {
+        console.log("state change", this.state);
+      }
+    );
   };
 
   render() {
     let animalsInfos = this.props.animals;
-    let allMarkers = animalsInfos.map(animal => {
-      return (
-        <Marker
-          longitude={parseFloat(animal.longitude)}
-          latitude={parseFloat(animal.latitude)}
-        >
-          <img
-            onClick={this.animalPopup}
-            src="./images/pawIcon.png"
-            className="MarkerIcon"
-            width="30px"
-          />
-        </Marker>
-      );
+    let allMarkers = animalsInfos.map((animal, index) => {
+      if (animal.type === "dog") {
+        return (
+          <Marker
+            longitude={parseFloat(animal.longitude)}
+            latitude={parseFloat(animal.latitude)}
+          >
+            <img
+              onClick={() => this.animalPopup(index)}
+              src="./images/dogIcon.png"
+              className="MarkerIcon"
+              width="30px"
+            />
+          </Marker>
+        );
+      } else {
+        return (
+          <Marker
+            longitude={parseFloat(animal.longitude)}
+            latitude={parseFloat(animal.latitude)}
+          >
+            <img
+              onClick={() => this.animalPopup(index)}
+              src="./images/catIcon.png"
+              className="MarkerIcon"
+              width="30px"
+            />
+          </Marker>
+        );
+      }
     });
 
     // console.log(this.state);
@@ -209,19 +221,24 @@ class unconnectedMap extends Component {
     return (
       <div className="MainDiv">
         <div className="NavBar">
-          <Link to="/signup" className="signupLink">
-            <span className="signupbutton">Signup</span>
-          </Link>
-          <button onClick={this.logoutHandler}>Logout</button>
+          {this.props.loggedIn ? (
+            <button onClick={this.logoutHandler}>Logout</button>
+          ) : (
+            <Link to="/signup" className="signupLink">
+              <span className="signupbutton">Signup</span>
+            </Link>
+          )}
         </div>
         <div className="searchcontainer">
-          <input
-            type="text"
-            className="searchinput"
-            value={this.state.addressInfo}
-            placeholder="Enter an address here"
-            onChange={this.geocoderHandler}
-          ></input>
+          <form>
+            <input
+              type="text"
+              className="searchinput"
+              value={this.state.addressInfo}
+              placeholder="Enter an address here"
+              onChange={this.geocoderHandler}
+            ></input>
+          </form>
         </div>
         <div className="MapArea">
           <ReactMapGL
@@ -247,7 +264,7 @@ class unconnectedMap extends Component {
                   closeButton={true}
                   closeOnClick={false}
                   captureClick={true}
-                  dynamicPosition={true}
+                  dynamicPosition={false}
                   anchor="left"
                   onClose={() =>
                     this.setState({
@@ -270,8 +287,12 @@ class unconnectedMap extends Component {
             {this.state.showPopupMarker ? (
               <Popup
                 className="popup"
-                latitude={parseFloat(this.props.animals[0].latitude)}
-                longitude={parseFloat(this.props.animals[0].longitude)}
+                latitude={parseFloat(
+                  this.props.animals[this.state.popupIndex].latitude
+                )}
+                longitude={parseFloat(
+                  this.props.animals[this.state.popupIndex].longitude
+                )}
                 closeButton={true}
                 closeOnClick={false}
                 captureClick={true}
@@ -285,11 +306,36 @@ class unconnectedMap extends Component {
                   })
                 }
               >
-                <h1>{this.props.animals[0].name}</h1>
-                <h1>{this.props.animals[0].race}</h1>
-                <img src={this.props.animals[0].image} alt="" />
-                <div>{this.props.animals[0].gender}</div>
+                <div className="popupDiv">
+                  <img
+                    className="popupImage"
+                    src={this.props.animals[this.state.popupIndex].image}
+                    alt=""
+                  />
+                  <h2 className="popupName">
+                    {this.props.animals[this.state.popupIndex].name}
+                  </h2>
+                  <h3 className="popupRace">
+                    {this.props.animals[this.state.popupIndex].race}
+                  </h3>
+                  <h3 className="popupOwner">
+                    Contact the owner :
+                    <br />
+                    {this.props.animals[this.state.popupIndex].owner}
+                  </h3>
+                  <div className="popupGender">
+                    {this.props.animals[this.state.popupIndex].gender}
+                  </div>
+                </div>
               </Popup>
+            ) : null}
+            {this.state.searchMarker ? (
+              <Marker
+                latitude={this.state.markers.latitude}
+                longitude={this.state.markers.longitude}
+              >
+                <img src="./images/searchIcon.png" width="30px" />
+              </Marker>
             ) : null}
           </ReactMapGL>
         </div>
@@ -305,7 +351,8 @@ let mapStatetoProps = state => {
   return {
     loggedIn: state.loggedIn,
     animalsDetails: state.animalsDetails,
-    animals: state.animals
+    animals: state.animals,
+    email: state.email
   };
 };
 let Map = connect(mapStatetoProps)(unconnectedMap);

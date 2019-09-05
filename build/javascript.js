@@ -13518,7 +13518,7 @@ module.exports = exports['default'];
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".App {\n  height: 100vh;\n  display: flex;\n  color: white;\n}\n\n.App__Aside {\n  width: 50%;\n  background-color: white;\n  background: url(\"/images/stores.jpg\") no-repeat center center;\n  z-index: 105;\n  background-size: cover;\n}\n\n.App__Form {\n  width: 50%;\n  text-align-last: center;\n  height: 100%;\n  background-color: #101010;\n  padding: 25px 40px;\n  overflow: auto;\n  z-index: 105;\n}\n.FormCenter {\n  margin-bottom: 100px;\n}\n.or {\n  color: white;\n}\n\n.FormTitle {\n  padding-top: 20%;\n  color: black;\n  font-weight: 300;\n  margin-bottom: 50px;\n}\n\n.FormTitle__Link {\n  color: white;\n  text-decoration: none;\n  display: inline-block;\n  font-size: 1.7em;\n  margin: 0 10px;\n  padding-bottom: 5px;\n}\n\n.FormTitle__Link:first-child {\n  margin-left: 0;\n}\n\n.FormTitle__Link--Active {\n  color: white;\n  border-bottom: 1px solid white;\n  margin-bottom: 40px;\n}\n\n.FormField {\n  margin-bottom: 40px;\n}\n\n.FormField__Label {\n  display: block;\n  text-transform: uppercase;\n  font-size: 0.9em;\n  color: white;\n}\n\n.FormField__Input:-webkit-autofill {\n  -webkit-text-fill-color: black !important;\n  -webkit-box-shadow: 0 0 0px 1000px white inset;\n  box-shadow: 0 0 0px 1000px white inset;\n  width: 50%;\n  background-color: white;\n  font-size: 0.9em;\n  border: none;\n  outline: none;\n  font-size: 1em;\n  font-weight: 300;\n  padding-bottom: 10px;\n  margin-top: 10px;\n}\n.FormField__Input {\n  text-align: left;\n  padding-top: 10px;\n  width: 50%;\n  background-color: white;\n  color: black;\n  outline: none;\n  font-size: 1em;\n  font-weight: 300;\n  padding-bottom: 10px;\n  padding-left: 15px;\n  margin-top: 10px;\n  font-family: \"roboto\", sans-serif;\n}\n\n.FormField__Input::placeholder {\n  color: #616e7f;\n}\n\n.FormField__Button {\n  background-color: #101010;\n  color: white;\n  border: none;\n  outline: none;\n  padding-right: 25px;\n  padding-left: 25px;\n  padding-top: 15px;\n  padding-bottom: 15px;\n  font-size: 22px;\n  font-weight: 400;\n  min-inline-size: -webkit-fill-available;\n}\n.FormField__Button:hover {\n  cursor: pointer;\n}\n.FormField__Link {\n  color: #66707d;\n  text-decoration: none;\n  display: inline-block;\n  border-bottom: 1.5px solid #225e62;\n  padding-bottom: 5px;\n}\n\n.FormField__CheckboxLabel {\n  color: #646f7d;\n  font-size: 0.9em;\n}\n\n.FormField__Checkbox {\n  position: relative;\n  top: 1.5px;\n}\n\n.FormField__TermsLink {\n  color: white;\n  border-bottom: 1px solid #199087;\n  text-decoration: none;\n  display: inline-block;\n  padding-bottom: 2px;\n  margin-left: 5px;\n}\n", ""]);
+exports.push([module.i, ".App {\r\n  height: 100vh;\r\n  display: flex;\r\n  color: white;\r\n}\r\n\r\n.App__Aside {\r\n  width: 50%;\r\n  background-color: white;\r\n  background: url(\"/images/stores.jpg\") no-repeat center center;\r\n  z-index: 105;\r\n  background-size: cover;\r\n}\r\n\r\n.App__Form {\r\n  width: 50%;\r\n  text-align-last: center;\r\n  height: 100%;\r\n  background-color: #101010;\r\n  padding: 25px 40px;\r\n  overflow: auto;\r\n  z-index: 105;\r\n}\r\n.FormCenter {\r\n  margin-bottom: 100px;\r\n}\r\n.or {\r\n  color: white;\r\n}\r\n\r\n.FormTitle {\r\n  padding-top: 20%;\r\n  color: black;\r\n  font-weight: 300;\r\n  margin-bottom: 50px;\r\n}\r\n\r\n.FormTitle__Link {\r\n  color: white;\r\n  text-decoration: none;\r\n  display: inline-block;\r\n  font-size: 1.7em;\r\n  margin: 0 10px;\r\n  padding-bottom: 5px;\r\n}\r\n\r\n.FormTitle__Link:first-child {\r\n  margin-left: 0;\r\n}\r\n\r\n.FormTitle__Link--Active {\r\n  color: white;\r\n  border-bottom: 1px solid white;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.FormField {\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.FormField__Label {\r\n  display: block;\r\n  text-transform: uppercase;\r\n  font-size: 0.9em;\r\n  color: white;\r\n}\r\n\r\n.FormField__Input:-webkit-autofill {\r\n  -webkit-text-fill-color: black !important;\r\n  -webkit-box-shadow: 0 0 0px 1000px white inset;\r\n  box-shadow: 0 0 0px 1000px white inset;\r\n  width: 50%;\r\n  background-color: white;\r\n  font-size: 0.9em;\r\n  border: none;\r\n  outline: none;\r\n  font-size: 1em;\r\n  font-weight: 300;\r\n  padding-bottom: 10px;\r\n  margin-top: 10px;\r\n}\r\n.FormField__Input {\r\n  text-align: left;\r\n  padding-top: 10px;\r\n  width: 50%;\r\n  background-color: white;\r\n  color: black;\r\n  outline: none;\r\n  font-size: 1em;\r\n  font-weight: 300;\r\n  padding-bottom: 10px;\r\n  padding-left: 15px;\r\n  margin-top: 10px;\r\n  font-family: \"roboto\", sans-serif;\r\n}\r\n\r\n.FormField__Input::placeholder {\r\n  color: #616e7f;\r\n}\r\n\r\n.FormField__Button {\r\n  background-color: #101010;\r\n  color: white;\r\n  border: none;\r\n  outline: none;\r\n  padding-right: 25px;\r\n  padding-left: 25px;\r\n  padding-top: 15px;\r\n  padding-bottom: 15px;\r\n  font-size: 22px;\r\n  font-weight: 400;\r\n  min-inline-size: -webkit-fill-available;\r\n}\r\n.FormField__Button:hover {\r\n  cursor: pointer;\r\n}\r\n.FormField__Link {\r\n  color: #66707d;\r\n  text-decoration: none;\r\n  display: inline-block;\r\n  border-bottom: 1.5px solid #225e62;\r\n  padding-bottom: 5px;\r\n}\r\n\r\n.FormField__CheckboxLabel {\r\n  color: #646f7d;\r\n  font-size: 0.9em;\r\n}\r\n\r\n.FormField__Checkbox {\r\n  position: relative;\r\n  top: 1.5px;\r\n}\r\n\r\n.FormField__TermsLink {\r\n  color: white;\r\n  border-bottom: 1px solid #199087;\r\n  text-decoration: none;\r\n  display: inline-block;\r\n  padding-bottom: 2px;\r\n  margin-left: 5px;\r\n}\r\n", ""]);
 
 
 
@@ -13548,7 +13548,7 @@ exports.push([module.i, ".files input {\r\n  outline: 2px dashed #92b0b3;\r\n  o
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "body {\n  background-color: white;\n  margin: 0;\n}\n\n.overlay {\n  z-index: 50;\n  position: fixed;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.popup {\n  z-index: 100;\n  position: fixed;\n  top: 200px;\n  left: 200px;\n  right: 200px;\n  background-color: white;\n}\n", ""]);
+exports.push([module.i, "body {\r\n  background-color: white;\r\n  margin: 0;\r\n}\r\n\r\n.overlay {\r\n  z-index: 50;\r\n  position: fixed;\r\n  left: 0;\r\n  right: 0;\r\n  top: 0;\r\n  bottom: 0;\r\n  background-color: rgba(0, 0, 0, 0.5);\r\n}\r\n\r\n.popup {\r\n  z-index: 100;\r\n  position: fixed;\r\n  top: 200px;\r\n  left: 200px;\r\n  right: 200px;\r\n  background-color: white;\r\n}\r\n", ""]);
 
 
 
@@ -13566,7 +13566,7 @@ exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/di
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);", ""]);
 
 // Module
-exports.push([module.i, ".MainDiv {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n.MainFrame {\r\n  background: url(/images/Untitled.svg);\r\n}\r\n.FormDisplayArea {\r\n  color: white;\r\n}\r\n.NavBar {\r\n  text-align: -webkit-center;\r\n}\r\n.MapArea {\r\n  background: black;\r\n  align-self: center;\r\n}\r\n\r\n.react-geocoder-results {\r\n  color: black;\r\n  background: white;\r\n}\r\n.navigationControl {\r\n  position: absolute;\r\n}\r\n.searchbar {\r\n  border: 1px solid black;\r\n}\r\n.theMap {\r\n  z-index: 0;\r\n}\r\n.popup {\r\n  z-index: 1;\r\n  background-color: transparent;\r\n}\r\n.mapboxgl-popup-content {\r\n  width: fit-content;\r\n}\r\n.searchcontainer {\r\n  padding-top: 64px;\r\n  text-align: -webkit-center;\r\n}\r\n.searchtitle {\r\n  font-size: 22px;\r\n  font-weight: 900;\r\n  text-align: center;\r\n  color: #ff8b88;\r\n}\r\n\r\n.searchinput {\r\n  justify-content: center;\r\n  width: 20%;\r\n  padding: 12px 24px;\r\n\r\n  transition: transform 250ms ease-in-out;\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n\r\n  color: #575756;\r\n  background-color: white;\r\n  /*         background-image: url(http://mihaeltomic.com/codepen/input-search/ic_search_black_24px.svg); */\r\n\r\n  background-image: url(\"data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E\");\r\n  background-repeat: no-repeat;\r\n  background-size: 18px 18px;\r\n  background-position: 95% center;\r\n  border-radius: 50px;\r\n  border: 1px solid #575756;\r\n  transition: all 250ms ease-in-out;\r\n  backface-visibility: hidden;\r\n  transform-style: preserve-3d;\r\n}\r\n.searchinputplaceholder {\r\n  color: color(#575756 a(0.8));\r\n  text-transform: uppercase;\r\n  letter-spacing: 1.5px;\r\n}\r\n\r\n.searchinputplaceholder:hover,\r\n.searchinputplaceholder:focus {\r\n  padding: 12px 0;\r\n  outline: 0;\r\n  border: 1px solid transparent;\r\n  border-bottom: 1px solid #575756;\r\n  border-radius: 0;\r\n  background-position: 100% center;\r\n}\r\n.signupLink {\r\n  text-decoration: none;\r\n}\r\n.signupbutton {\r\n  color: #111111;\r\n  font-size: 2em;\r\n  font-family: \"roboto\", sans-serif;\r\n}\r\n.signupbutton:hover {\r\n  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);\r\n}\r\n", ""]);
+exports.push([module.i, ".MainDiv {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n.MainFrame {\r\n  height: 100%;\r\n  background: url(/images/Untitled.svg);\r\n}\r\n.FormDisplayArea {\r\n  color: white;\r\n}\r\n.NavBar {\r\n  text-align: -webkit-center;\r\n}\r\n.MapArea {\r\n  background: black;\r\n  align-self: center;\r\n}\r\n\r\n.react-geocoder-results {\r\n  color: black;\r\n  background: white;\r\n}\r\n.navigationControl {\r\n  position: absolute;\r\n}\r\n.searchbar {\r\n  border: 1px solid black;\r\n}\r\n.theMap {\r\n  z-index: 0;\r\n}\r\n.popup {\r\n  z-index: 1;\r\n  background-color: transparent;\r\n}\r\n.mapboxgl-popup-content {\r\n  width: fit-content;\r\n}\r\n.searchcontainer {\r\n  text-align: -webkit-center;\r\n}\r\n.searchtitle {\r\n  font-size: 22px;\r\n  font-weight: 900;\r\n  text-align: center;\r\n  color: #ff8b88;\r\n}\r\n\r\n.searchinput {\r\n  justify-content: center;\r\n  width: 20%;\r\n  padding: 12px 24px;\r\n\r\n  transition: transform 250ms ease-in-out;\r\n  font-size: 14px;\r\n  line-height: 18px;\r\n\r\n  color: #575756;\r\n  background-color: white;\r\n  /*         background-image: url(http://mihaeltomic.com/codepen/input-search/ic_search_black_24px.svg); */\r\n\r\n  background-image: url(\"data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E\");\r\n  background-repeat: no-repeat;\r\n  background-size: 18px 18px;\r\n  background-position: 95% center;\r\n  border-radius: 50px;\r\n  border: 1px solid #575756;\r\n  transition: all 250ms ease-in-out;\r\n  backface-visibility: hidden;\r\n  transform-style: preserve-3d;\r\n}\r\n.searchinputplaceholder {\r\n  color: color(#575756 a(0.8));\r\n  text-transform: uppercase;\r\n  letter-spacing: 1.5px;\r\n}\r\n\r\n.searchinputplaceholder:hover,\r\n.searchinputplaceholder:focus {\r\n  padding: 12px 0;\r\n  outline: 0;\r\n  border: 1px solid transparent;\r\n  border-bottom: 1px solid #575756;\r\n  border-radius: 0;\r\n  background-position: 100% center;\r\n}\r\n.signupLink {\r\n  text-decoration: none;\r\n}\r\n.signupbutton {\r\n  color: #111111;\r\n  font-size: 2em;\r\n  font-family: \"roboto\", sans-serif;\r\n}\r\n.signupbutton:hover {\r\n  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);\r\n}\r\n.popupImage {\r\n  width: 100%;\r\n  height: auto;\r\n}\r\n.popupDiv {\r\n  width: 400px;\r\n  height: auto;\r\n}\r\n", ""]);
 
 
 
@@ -74740,11 +74740,7 @@ class FormAnimalPicture extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] 
       className: "row"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       class: "col-md-6"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-      method: "POST",
-      action: "/uploads",
-      enctype: "multipart/form-data"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       class: "form-group files color"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
       className: "form-label"
@@ -74993,7 +74989,7 @@ class Unconnectedlogin extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       }, "Enter your E-mail address"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "email",
         id: "email",
-        className: "FormFiseld__Input",
+        className: "FormField__Input",
         placeholder: "Your e-mail here",
         name: "email",
         value: this.state.email,
@@ -75199,8 +75195,7 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     });
 
     _defineProperty(this, "geocoderHandler", async event => {
-      event.preventDefault(); // console.log("input", event.target.value);
-
+      event.preventDefault();
       let str = event.target.value;
       let encodedUrl = str.replace(" ", "+");
       let response = await (await fetch("https://maps.googleapis.com/maps/api/geocode/json?address=" + encodedUrl + "&key=AIzaSyCCdevCVVY-LTMoB9Hsm4pWaxHsWC_ojMg", {
@@ -75209,7 +75204,6 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       let body = JSON.parse(response);
 
       if (body.length != 0) {
-        console.log("body", body);
         this.state.address = body;
         let newViewport = {
           height: this.state.viewport.height,
@@ -75218,8 +75212,14 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
           latitude: body.results[0].geometry.location.lat,
           longitude: body.results[0].geometry.location.lng
         };
+        let newMarkers = {
+          latitude: body.results[0].geometry.location.lat,
+          longitude: body.results[0].geometry.location.lng
+        };
         this.setState({
-          viewport: newViewport
+          viewport: newViewport,
+          searchMarker: true,
+          markers: newMarkers
         });
       }
     });
@@ -75231,28 +75231,19 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       });
     });
 
-    _defineProperty(this, "animalPopup", event => {
+    _defineProperty(this, "animalPopup", index => {
       event.preventDefault();
-      console.log("event when marker clicked", event);
       this.setState({
-        showPopupMarker: true
+        showPopupMarker: true,
+        popupIndex: index
       });
     });
 
     _defineProperty(this, "handleSubmit", event => {
       event.preventDefault();
-      let markerlat = this.state.popup.latitude;
-      let markerlng = this.state.popup.longitude;
-      let newMarker = {
-        latitude: markerlat,
-        longitude: markerlng
-      };
-      console.log("newMarker", newMarker);
-      this.setState({
-        markers: newMarker,
-        showPopupForm: false
-      });
+      event.stopPropagation();
       let formData = new FormData();
+      formData.append("owner", this.props.email);
       formData.append("type", this.props.animalsDetails.animalType);
       console.log("animalType", this.props.animalsDetails.animalType);
       formData.append("name", this.props.animalsDetails.animalName);
@@ -75268,16 +75259,16 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       fetch("/new-pet", {
         method: "POST",
         body: formData
-      }); // .then(response => response.text())
-      // .then(response => {
-      //   let petId = JSON.parse(response);
-      //   this.setState({ petId: petId });
-      //   this.props.getItemId(petId);
-      //   // receives the itemID from the backend
-      // });
+      });
+      this.setState({
+        showPopupForm: false
+      }, () => {
+        console.log("state change", this.state);
+      });
     });
 
     this.state = {
+      searchMarker: false,
       displayMarker: true,
       showPopupForm: false,
       showPopupMarker: false,
@@ -75291,7 +75282,7 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       },
       viewport: {
         width: "90vw",
-        height: "96vh",
+        height: "88vh",
         latitude: 45.451625,
         longitude: -73.575608,
         zoom: 12 // animalType: "",
@@ -75309,16 +75300,28 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
   render() {
     let animalsInfos = this.props.animals;
-    let allMarkers = animalsInfos.map(animal => {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_map_gl__WEBPACK_IMPORTED_MODULE_5__["Marker"], {
-        longitude: parseFloat(animal.longitude),
-        latitude: parseFloat(animal.latitude)
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        onClick: this.animalPopup,
-        src: "./images/pawIcon.png",
-        className: "MarkerIcon",
-        width: "30px"
-      }));
+    let allMarkers = animalsInfos.map((animal, index) => {
+      if (animal.type === "dog") {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_map_gl__WEBPACK_IMPORTED_MODULE_5__["Marker"], {
+          longitude: parseFloat(animal.longitude),
+          latitude: parseFloat(animal.latitude)
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+          onClick: () => this.animalPopup(index),
+          src: "./images/dogIcon.png",
+          className: "MarkerIcon",
+          width: "30px"
+        }));
+      } else {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_map_gl__WEBPACK_IMPORTED_MODULE_5__["Marker"], {
+          longitude: parseFloat(animal.longitude),
+          latitude: parseFloat(animal.latitude)
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+          onClick: () => this.animalPopup(index),
+          src: "./images/catIcon.png",
+          className: "MarkerIcon",
+          width: "30px"
+        }));
+      }
     }); // console.log(this.state);
 
     const {
@@ -75329,22 +75332,22 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "MainDiv"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "NavBar"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    }, this.props.loggedIn ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      onClick: this.logoutHandler
+    }, "Logout") : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
       to: "/signup",
       className: "signupLink"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: "signupbutton"
-    }, "Signup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-      onClick: this.logoutHandler
-    }, "Logout")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, "Signup"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "searchcontainer"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
       type: "text",
       className: "searchinput",
       value: this.state.addressInfo,
       placeholder: "Enter an address here",
       onChange: this.geocoderHandler
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "MapArea"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_map_gl__WEBPACK_IMPORTED_MODULE_5__["default"], _extends({}, viewport, {
       mapStyle: "mapbox://styles/vincentlinx/cjzsriwql096b1climsp972oc",
@@ -75365,7 +75368,7 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       closeButton: true,
       closeOnClick: false,
       captureClick: true,
-      dynamicPosition: true,
+      dynamicPosition: false,
       anchor: "left",
       onClose: () => this.setState({
         showPopupForm: false,
@@ -75378,8 +75381,8 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       handleSubmit: this.handleSubmit
     }))) : null, this.state.showPopupMarker ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_map_gl__WEBPACK_IMPORTED_MODULE_5__["Popup"], {
       className: "popup",
-      latitude: parseFloat(this.props.animals[0].latitude),
-      longitude: parseFloat(this.props.animals[0].longitude),
+      latitude: parseFloat(this.props.animals[this.state.popupIndex].latitude),
+      longitude: parseFloat(this.props.animals[this.state.popupIndex].longitude),
       closeButton: true,
       closeOnClick: false,
       captureClick: true,
@@ -75390,10 +75393,27 @@ class unconnectedMap extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         popuplat: [],
         popuplng: []
       })
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, this.props.animals[0].name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, this.props.animals[0].race), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: this.props.animals[0].image,
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "popupDiv"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      className: "popupImage",
+      src: this.props.animals[this.state.popupIndex].image,
       alt: ""
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, this.props.animals[0].gender)) : null))); // } else {
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+      className: "popupName"
+    }, this.props.animals[this.state.popupIndex].name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      className: "popupRace"
+    }, this.props.animals[this.state.popupIndex].race), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      className: "popupOwner"
+    }, "Contact the owner :", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), this.props.animals[this.state.popupIndex].owner), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "popupGender"
+    }, this.props.animals[this.state.popupIndex].gender))) : null, this.state.searchMarker ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_map_gl__WEBPACK_IMPORTED_MODULE_5__["Marker"], {
+      latitude: this.state.markers.latitude,
+      longitude: this.state.markers.longitude
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: "./images/searchIcon.png",
+      width: "30px"
+    })) : null))); // } else {
     //   return <Redirect to="/signup" />;
     // }
   }
@@ -75404,7 +75424,8 @@ let mapStatetoProps = state => {
   return {
     loggedIn: state.loggedIn,
     animalsDetails: state.animalsDetails,
-    animals: state.animals
+    animals: state.animals,
+    email: state.email
   };
 };
 

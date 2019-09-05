@@ -47,7 +47,7 @@ app.post("/signup", upload.none(), (req, res) => {
       dbo.collection("users").insertOne({
         email: email,
         name: name,
-        password: sha1(password),
+        password: sha1(password)
       });
       res.send(JSON.stringify({ success: true }));
       return;
@@ -122,6 +122,7 @@ app.post("/new-pet", upload.single("image"), (req, res) => {
   console.log(req.file);
   let filePath;
   console.log("filePath", filePath);
+  let owner = req.body.owner;
   let type = req.body.type;
   let name = req.body.name;
   let race = req.body.race;
@@ -136,7 +137,8 @@ app.post("/new-pet", upload.single("image"), (req, res) => {
   }
 
   dbo.collection("animals").insertOne({
-    filePath: filePath,
+    image: filePath,
+    owner: owner,
     type: type,
     name: name,
     race: race,
